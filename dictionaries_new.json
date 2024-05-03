@@ -1,0 +1,7 @@
+[
+    {
+        "name": "cMD curator",
+        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_curator.csv",
+        "description": "Curator name" 
+    }
+]

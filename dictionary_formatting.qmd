@@ -1,0 +1,374 @@
+---
+title: "cMD metadata dictionary formatting for Genestack ODM"
+author: "Sehyun Oh, Jason Hwee, Xiang Li"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{cMD dictionaries for Genestack}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    number_sections: yes
+    toc: yes
+    toc_depth: 4
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(comment = "#>", 
+                      collapse = TRUE, 
+                      message = FALSE, 
+                      warning = FALSE, 
+                      eval = FALSE)
+```
+
+```{r}
+dd <- readr::read_csv("~/OmicsMLRepo/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
+```
+
+# NCIT
+```{bash eval=FALSE}
+## Download `ncit.obo` in `~/Projects/curatedMetagenomicDataODM` directory
+wget https://purl.obolibrary.org/obo/ncit.obo
+```
+
+## recist
+```{r echo=FALSE, eval=FALSE}
+ncit <- ontologyIndex::get_ontology("~/Projects/curatedMetagenomicDataODM/ncit.obo")
+recist_terms <- c("NCIT:C159715", "NCIT:C159547", "NCIT:C159716", "NCIT:C159546")
+writeLines(recist_terms, "dictionaries_terms/recist.txt")
+recist_ind <- which(ncit$id %in% recist_terms)
+recist_obo <- lapply(ncit, function(x) {x[recist_ind]})
+
+library(BiocSet)
+x <- import("~/Projects/curatedMetagenomicDataODM/ncit.obo")
+y <- x %>% filter(element %in% recist_terms)
+export(y, "dictionaries/cmd_recist.obo")
+```
+
+```{r}
+recist_terms <- c("NCIT:C159715", "NCIT:C159547", "NCIT:C159716", "NCIT:C159546")
+writeLines(recist_terms, "dictionaries_terms/recist.txt")
+```
+
+```{bash eval=FALSE}
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/recist.txt \
+    --output dictionaries_owl/cMD_disease_response_recist.owl
+```
+
+## age_group
+```{r}
+attrName <- "age_group"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% .[c(5,3,1,2,4)]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="age_group"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+## age_unit
+```{r}
+attrName <- "age_unit"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="age_unit"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+## control
+```{r}
+attrName <- "control"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="control"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+## neonatal_delivery_procedure
+```{r}
+attrName <- "neonatal_delivery_procedure"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="neonatal_delivery_procedure"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+
+
+
+## treatment (dynamic enums)
+```{bash}
+## Used dynamic enum node for cMD_treatment
+robot extract --method MIREOT \
+    --input ontologies/ncit.obo \
+    --branch-from-term "NCIT:C1908" \
+    --output dictionaries_owl/cmd_treatment_enums.owl
+```
+
+## country (dynamic enums)
+```{bash}
+attrName="country"
+robot extract --method MIREOT \
+    --input ontologies/ncit.obo \
+    --branch-from-term "NCIT:C25464" \
+    --output dictionaries_owl/cmd_${attrName}_enums.owl
+```
+
+## obgyn_menopause (dynamic enums)
+```{bash}
+attrName="obgyn_menopause"
+robot extract --method MIREOT \
+    --input ontologies/ncit.obo \
+    --branch-from-term "NCIT:C106541" \
+    --output dictionaries_owl/cmd_${attrName}_enums.owl
+```
+
+
+# MRO
+Download `mro.owl` from https://obofoundry.org/.
+
+## hla (dynamic enums)
+```{bash}
+attrName="hla"
+robot extract --method MIREOT \
+    --input ontologies/mro.owl \
+    --branch-from-term "MRO:0001676" \
+    --output dictionaries_owl/cmd_${attrName}_enums.owl
+```
+
+# FMA
+Download `fma.owl` version 5.0.0 from https://bioportal.bioontology.org/ontologies/FMA.
+
+
+
+
+
+# Simple CSV
+## smoker
+`snomed.owl` is a bit ticky to download. I made the simple csv for this attribute.
+```{r}
+attrName <- "smoker"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## dietary_restriction
+No ontology terms used for this attribute.
+```{r}
+attrName <- "dietary_restriction"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## curator
+No ontology terms used for this attribute.
+```{r}
+attrName <- "curator"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = ";|\\|") %>% .[[1]] %>% 
+    unique %>% sort %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## fmt_role
+No ontology terms used for this attribute.
+```{r}
+attrName <- "fmt_role"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## lifestyle
+No ontology terms used for this attribute.
+```{r}
+attrName <- "lifestyle"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## neonatal_feeding_method
+No ontology terms used for this attribute.
+```{r}
+attrName <- "neonatal_feeding_method"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## tumor_staging_ajcc
+No ontology terms used for this attribute.
+```{r}
+attrName <- "tumor_staging_ajcc"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## zigosity
+No ontology terms used for this attribute.
+```{r}
+attrName <- "zigosity"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## family_role
+No ontology terms used for this attribute.
+```{r}
+attrName <- "family_role"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## feces_phenotype_metric
+Contains values from different ontologies, including SNOMED.
+```{r}
+attrName <- "feces_phenotype_metric"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## obgyn_pregnancy
+Straight-foward concepts
+```{r}
+attrName <- "obgyn_pregnancy"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## sex
+```{r}
+attrName <- "sex"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## probing_pocket_depth
+Can't find the correct version of `fma.owl`
+```{r}
+attrName <- "probing_pocket_depth"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+## dna_extraction_kit
+```{r}
+attrName <- "dna_extraction_kit"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
