@@ -89,7 +89,6 @@
         "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_probing_pocket_depth.csv",
         "description": "Depth of periodontal pocket measured at the different tooth's regions"
     },
-    
     {
         "name": "cMD sex",
         "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_sex.csv",
