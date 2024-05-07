@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C159546">
+        <obo:IAO_0000115>Neither sufficient shrinkage to qualify for partial response nor sufficient increase to qualify for progressive disease, taking as reference the smallest sum longest diameter since start of treatment.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C159546</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>RECIST Stable Disease</obo:NCIT_P108>
+        <obo:NCIT_P208>CL951384</obo:NCIT_P208>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>RECIST Stable Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Stable Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C159546</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156955"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159328"/>
+        <rdfs:label>RECIST Stable Disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159546"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Neither sufficient shrinkage to qualify for partial response nor sufficient increase to qualify for progressive disease, taking as reference the smallest sum longest diameter since start of treatment.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159546"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RECIST Stable Disease</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159546"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Stable Disease</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C159547">
+        <obo:IAO_0000115>At least a 30% decrease in the sum of the longest diameter of target lesions, taking as reference the baseline sum longest diameter.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C159547</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>RECIST Partial Response</obo:NCIT_P108>
+        <obo:NCIT_P208>CL951385</obo:NCIT_P208>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Partial Response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RECIST Partial Response</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C159547</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156955"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159328"/>
+        <rdfs:label>RECIST Partial Response</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159547"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>At least a 30% decrease in the sum of the longest diameter of target lesions, taking as reference the baseline sum longest diameter.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Partial Response</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RECIST Partial Response</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C159715">
+        <obo:IAO_0000115>Disappearance of all target lesions.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C159715</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>RECIST Complete Response</obo:NCIT_P108>
+        <obo:NCIT_P208>CL951684</obo:NCIT_P208>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Complete Response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RECIST Complete Response</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C159715</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156955"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159328"/>
+        <rdfs:label>RECIST Complete Response</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Disappearance of all target lesions.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Complete Response</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RECIST Complete Response</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C159716">
+        <obo:IAO_0000115>At lease a 20% increase in the sum of the longest diameter of target lesions, taking as reference the smallest sum longest diameter recorded since the treatment started or the appearance of one or more new lesions.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C159716</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>RECIST Progressive Disease</obo:NCIT_P108>
+        <obo:NCIT_P208>CL951685</obo:NCIT_P208>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Progressive Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RECIST Progressive Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C159716</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156955"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159328"/>
+        <rdfs:label>RECIST Progressive Disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159716"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>At lease a 20% increase in the sum of the longest diameter of target lesions, taking as reference the smallest sum longest diameter recorded since the treatment started or the appearance of one or more new lesions.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159716"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Progressive Disease</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159716"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RECIST Progressive Disease</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

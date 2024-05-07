@@ -1,0 +1,543 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P381 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P381"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C114141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C114141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <obo:IAO_0000115>A cesarean delivery scheduled at a patient&apos;s request or provider preference without medical or obstetric indications.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C114141</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Elective Cesarean Delivery</obo:NCIT_P108>
+        <obo:NCIT_P207>C0473296</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A cesarean delivery scheduled at a patient&apos;s request or provider preference without medical or obstetric indications.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Elective Caesarean Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Elective Caesarean Section</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Elective Cesarean Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Elective Cesarean Section</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C114141</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Elective Cesarean Delivery</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114141"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cesarean delivery scheduled at a patient&apos;s request or provider preference without medical or obstetric indications.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+        <obo1:NCIT_P381>NICHD</obo1:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114141"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A cesarean delivery scheduled at a patient&apos;s request or provider preference without medical or obstetric indications.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NICHD</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114141"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Elective Caesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114141"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Elective Caesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114141"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Elective Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114141"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Elective Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114141"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Elective Cesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C46088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C46088">
+        <obo:IAO_0000115>Surgical delivery of one or more intrauterine fetuses though an abdominal incision.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C46088</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Cesarean Section</obo:NCIT_P108>
+        <obo:NCIT_P207>C0007876</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>Surgical delivery of one or more intrauterine fetuses though an abdominal incision.</obo:NCIT_P325>
+        <obo:NCIT_P366>Caesarian_Section</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Abdominal Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>C-Section</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CESAREAN SECTION</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Caesarean Birth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Caesarean Section</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cesarean Birth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cesarean Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cesarean Section</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C46088</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158036"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C181165"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77527"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89506"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Cesarean Section</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Surgical delivery of one or more intrauterine fetuses though an abdominal incision.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NICHD</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Abdominal Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Abdominal Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>C-Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>C-Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>C-Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CESAREAN SECTION</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Caesarean Birth</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Caesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cesarean Birth</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cesarean Birth</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Surgical delivery of one or more intrauterine fetuses though an abdominal incision.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+        <obo1:NCIT_P381>NICHD</obo1:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Surgical delivery of one or more intrauterine fetuses though an abdominal incision.</owl:annotatedTarget>
+        <obo1:NCIT_P378>CDISC</obo1:NCIT_P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C81303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C81303">
+        <obo:IAO_0000115>Birth of the fetus through the vagina.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C81303</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organism Function</obo:NCIT_P106>
+        <obo:NCIT_P108>Vaginal Delivery</obo:NCIT_P108>
+        <obo:NCIT_P207>C1541822</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>Birth of the fetus through the vagina.</obo:NCIT_P325>
+        <obo:NCIT_P366>Vaginal_Delivery</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>VAGINAL DELIVERY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vaginal Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C81303</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C181165"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77527"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89506"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Vaginal Delivery</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81303"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Birth of the fetus through the vagina.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+        <obo1:NCIT_P381>NICHD</obo1:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81303"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Birth of the fetus through the vagina.</owl:annotatedTarget>
+        <obo1:NCIT_P378>CDISC</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81303"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Birth of the fetus through the vagina.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NICHD</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81303"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>VAGINAL DELIVERY</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81303"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Vaginal Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81303"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Vaginal Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C46088"/>
+        <obo:IAO_0000115>A cesarean delivery that is not scheduled, planned or anticipated and is typically undertaken with short notice.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C92772</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Emergency Cesarean Delivery</obo:NCIT_P108>
+        <obo:NCIT_P207>C0558380</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A cesarean delivery that is not scheduled, planned or anticipated and is typically undertaken with short notice.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Emergency Caesarean Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Emergency Caesarean Section</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Emergency Cesarean Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Emergency Cesarean Section</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Stat Cesarean Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Urgent Cesarean Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C92772</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Emergency Cesarean Delivery</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cesarean delivery that is not scheduled, planned or anticipated and is typically undertaken with short notice.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+        <obo1:NCIT_P381>NICHD</obo1:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A cesarean delivery that is not scheduled, planned or anticipated and is typically undertaken with short notice.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NICHD</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Caesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Caesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Caesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Caesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Cesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Emergency Cesarean Section</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Stat Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92772"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Urgent Cesarean Delivery</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

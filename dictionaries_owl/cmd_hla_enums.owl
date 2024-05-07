@@ -1,0 +1,3013 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001984 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/MRO_0001984">
+        <rdfs:label>has MHC restriction level</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <obo:IAO_0000111>IEDB alternative term</obo:IAO_0000111>
+        <obo:IAO_0000115>An alternative term used by the IEDB.</obo:IAO_0000115>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>IEDB alternative term</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001172 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001610"/>
+        <obo:IAO_0000118>HLA-DPA1*0103/DPB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10103/DPB10401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA101:03/DPB104:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*04:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*01:03/DPB1*04:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*01:03/DPB1*04:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001173 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001610"/>
+        <obo:IAO_0000118>HLA-DPA1*0103/DPB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10103/DPB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA101:03/DPB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*01:03/DPB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*01:03/DPB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001175 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001609"/>
+        <obo:IAO_0000118>HLA-DPA1*0201/DPB1*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10201/DPB10101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA102:01/DPB101:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*01:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*02:01/DPB1*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*02:01/DPB1*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001176 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001611"/>
+        <obo:IAO_0000118>HLA-DPA1*0201/DPB1*0501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10201/DPB10501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA102:01/DPB105:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*05:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*02:01/DPB1*05:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*02:01/DPB1*05:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001177 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001612"/>
+        <obo:IAO_0000118>HLA-DPA1*0201/DPB1*0901</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10201/DPB10901</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA102:01/DPB109:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*09:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPw9</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*02:01/DPB1*09:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*02:01/DPB1*09:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001178 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001611"/>
+        <obo:IAO_0000118>HLA-DPA1*0202/DPB1*0501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10202/DPB10501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA102:02/DPB105:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*05:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*02:02/DPB1*05:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*02:02/DPB1*05:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001179 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001610"/>
+        <obo:IAO_0000118>HLA-DPA1*0301/DPB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10301/DPB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA103:01/DPB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*03:01/DPB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*03:01/DPB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001180 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001613"/>
+        <obo:IAO_0000118>HLA-DPB1*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*01011</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB10101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB101:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPB1*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPB1*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001181 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001614"/>
+        <obo:IAO_0000118>HLA-DPB1*0201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*020102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB10201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB102:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPB1*02:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPB1*02:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001182 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001615"/>
+        <obo:IAO_0000118>HLA-DPB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB103:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001183 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001616"/>
+        <obo:IAO_0000118>HLA-DPB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB10401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB104:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPB1*04:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPB1*04:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001184 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001616"/>
+        <obo:IAO_0000118>HLA-DPB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB104:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DPB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001185 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001617"/>
+        <obo:IAO_0000118>HLA-DPB1*0501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB10501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB105:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPB1*05:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPB1*05:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001186 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001618"/>
+        <obo:IAO_0000118>HLA-DPB1*0601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB10601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB106:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPB1*06:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPB1*06:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001199 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001247"/>
+        <obo:IAO_0000118>HLA-DQA1*0101/DQB1*0501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10101/DQB10501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:01/DQB105:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*05:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:01/DQB1*05:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:01/DQB1*05:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001200 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001249"/>
+        <obo:IAO_0000118>HLA-DQA1*0101/DQB1*0503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10101/DQB10503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:01/DQB105:03</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*05:03</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:01/DQB1*05:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:01/DQB1*05:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001202 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001624"/>
+        <obo:IAO_0000118>DQ3t12</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA*0102/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA1*0102/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10102/DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:02/DQB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:02/DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:02/DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001203 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001247"/>
+        <obo:IAO_0000118>HLA-DQA1*0102/DQB1*0501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10102/DQB10501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:02/DQB105:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*05:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:02/DQB1*05:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:02/DQB1*05:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001204 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001626"/>
+        <obo:IAO_0000118>HLA-DQA1*0102/DQB1*0502</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10102/DQB10502</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:02/DQB105:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*05:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:02/DQB1*05:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:02/DQB1*05:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001205 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001251"/>
+        <obo:IAO_0000118>HLA-DQA1*0102/DQB1*0602</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10102/DQB10602</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:02/DQB106:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*06:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:02/DQB1*06:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:02/DQB1*06:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001206 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001253"/>
+        <obo:IAO_0000118>HLA-DQA1*0102/DQB1*0604</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10102/DQB10604</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:02/DQB106:04</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*06:04</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:02/DQB1*06:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:02/DQB1*06:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001207 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001240"/>
+        <obo:IAO_0000118>HLA-DQA1*0103/DQB1*0302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10103/DQB10302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:03/DQB103:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:03/DQB1*03:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:03/DQB1*03:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001208 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001250"/>
+        <obo:IAO_0000118>HLA-DQA1*0103/DQB1*0601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10103/DQB10601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:03/DQB106:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*06:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:03/DQB1*06:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:03/DQB1*06:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001209 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001252"/>
+        <obo:IAO_0000118>HLA-DQA1*0103/DQB1*0603</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10103/DQB10603</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:03/DQB106:03</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*06:03</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:03/DQB1*06:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:03/DQB1*06:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001210 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001249"/>
+        <obo:IAO_0000118>HLA-DQA1*0104/DQB1*0503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10104/DQB10503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA101:04/DQB105:03</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*05:03</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*01:04/DQB1*05:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*01:04/DQB1*05:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001212 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001237"/>
+        <obo:IAO_0000118>HLA-DQA1*0201/DQB1*0201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10201/DQB10201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA102:01/DQB102:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*02:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*02:01/DQB1*02:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*02:01/DQB1*02:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001213 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001238"/>
+        <obo:IAO_0000118>HLA-DQA1*0201/DQB1*0202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10201/DQB10202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA102:01/DQB102:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*02:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*02:01/DQB1*02:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*02:01/DQB1*02:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001214 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001239"/>
+        <obo:IAO_0000118>HLA-DQA1*0201/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10201/DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA102:01/DQB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*02:01/DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*02:01/DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001215 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001631"/>
+        <obo:IAO_0000118>HLA-DQA1*0201/DQB1*0303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10201/DQB10303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA102:01/DQB103:03</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:03</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*02:01/DQB1*03:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*02:01/DQB1*03:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001216 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001246"/>
+        <obo:IAO_0000118>HLA-DQA1*0201/DQB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10201/DQB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA102:01/DQB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*02:01/DQB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*02:01/DQB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001217 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001628"/>
+        <obo:IAO_0000118>HLA-DQA1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001218 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001621"/>
+        <obo:IAO_0000118>HLA-DQA1*0301/DQB1*0201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10301/DQB10201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:01/DQB102:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*02:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:01/DQB1*02:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:01/DQB1*02:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001219 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001217"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001239"/>
+        <obo:IAO_0000118>HLA-DQA1*0301/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10301/DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:01/DQB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:01/DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:01/DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001220 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001240"/>
+        <obo:IAO_0000118>HLA-DQA1*0301/DQB1*0302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10301/DQB10302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:01/DQB103:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:01/DQB1*03:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:01/DQB1*03:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001221 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001245"/>
+        <obo:IAO_0000118>HLA-DQA1*0301/DQB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10301/DQB10401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:01/DQB104:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*04:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:01/DQB1*04:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:01/DQB1*04:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001222 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001239"/>
+        <obo:IAO_0000118>HLA-DQ7.3</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA1*0302/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10302/DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:02/DQB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:02/DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:02/DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001223 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001241"/>
+        <obo:IAO_0000118>HLA-DQA1*0302/DQB1*0303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10302/DQB10303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:02/DQB103:03</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:03</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:02/DQB1*03:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:02/DQB1*03:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001224 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001245"/>
+        <obo:IAO_0000118>HLA-DQA1*0302/DQB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10302/DQB10401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:02/DQB104:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*04:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:02/DQB1*04:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:02/DQB1*04:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001225 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001623"/>
+        <obo:IAO_0000118>DQ3</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA1*0303/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10303/DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:03/DQB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:03/DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:03/DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001226 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001246"/>
+        <obo:IAO_0000118>HLA-DQA1*0303/DQB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10303/DQB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA103:03/DQB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*03:03/DQB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*03:03/DQB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001227 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001246"/>
+        <obo:IAO_0000118>HLA-DQA1*0401/DQB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10401/DQB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA104:01/DQB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*04:01/DQB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*04:01/DQB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001229 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001237"/>
+        <obo:IAO_0000118>HLA-DQA1*0501/DQB1*0201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10501/DQB10201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA105:01/DQB102:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*02:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*05:01/DQB1*02:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*05:01/DQB1*02:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001230 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001239"/>
+        <obo:IAO_0000118>HLA-DQA1*0501/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10501/DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA105:01/DQB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*05:01/DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*05:01/DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001231 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001240"/>
+        <obo:IAO_0000118>HLA-DQA1*0501/DQB1*0302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA1*0501/HLA-DQB1*0302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10501/DQB10302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA105:01/DQB103:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*05:01/DQB1*03:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*05:01/DQB1*03:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001232 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001241"/>
+        <obo:IAO_0000118>HLA-DQA1*0501/DQB1*0303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10501/DQB10303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA105:01/DQB103:03</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:03</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*05:01/DQB1*03:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*05:01/DQB1*03:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001233 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001246"/>
+        <obo:IAO_0000118>HLA-DQA1*0501/DQB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10501/DQB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA105:01/DQB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*05:01/DQB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*05:01/DQB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001234 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001239"/>
+        <obo:IAO_0000118>HLA-DQA1*0505/DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10505/DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA105:05/DQB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*05:05/DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*05:05/DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001235 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001246"/>
+        <obo:IAO_0000118>HLA-DQA1*0601/DQB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10601/DQB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA106:01/DQB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*06:01/DQB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*06:01/DQB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001237 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001620"/>
+        <obo:IAO_0000118>HLA-DQB1*0201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB102:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*02:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*02:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001238 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001620"/>
+        <obo:IAO_0000118>HLA-DQB1*0202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB102:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*02:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*02:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001239 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001628"/>
+        <obo:IAO_0000118>HLA-DQB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB103:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001240 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001629"/>
+        <obo:IAO_0000118>HLA-DQB1*0302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB103:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*03:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*03:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001241 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001630"/>
+        <obo:IAO_0000118>HLA-DQB1*0303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB103:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*03:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*03:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001242 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001628"/>
+        <obo:IAO_0000118>HLA-DQB1*0304</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10304</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB103:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*03:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*03:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001244 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001628"/>
+        <obo:IAO_0000118>HLA-DQB1*0319</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10319</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB103:19</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*03:19</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*03:19 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001245 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001625"/>
+        <obo:IAO_0000118>HLA-DQB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB104:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*04:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*04:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001246 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001625"/>
+        <obo:IAO_0000118>HLA-DQB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB104:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001247 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001626"/>
+        <obo:IAO_0000118>HLA-DQB1*0501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB105:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*05:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*05:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001249 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001626"/>
+        <obo:IAO_0000118>HLA-DQB1*0503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB105:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*05:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*05:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001250 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001627"/>
+        <obo:IAO_0000118>HLA-DQB1*0601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB106:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*06:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*06:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001251 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001627"/>
+        <obo:IAO_0000118>HLA-DQB1*0602</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10602</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB106:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*06:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*06:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001252 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001627"/>
+        <obo:IAO_0000118>HLA-DQB1*0603</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10603</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB106:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*06:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*06:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001253 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001627"/>
+        <obo:IAO_0000118>HLA-DQB1*0604</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10604</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB106:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*06:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*06:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001254 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001627"/>
+        <obo:IAO_0000118>HLA-DQB1*0605</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10605</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB106:05</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*06:05</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*06:05 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001255 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001627"/>
+        <obo:IAO_0000118>HLA-DQB1*0609</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10609</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB106:09</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*06:09</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*06:09 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001256 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001279"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB101:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA1*0101/DRB1*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*01:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001257 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001645"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA1*0101/DRB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001258 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001290"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB104:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA1*0101/DRB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*04:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*04:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*04:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001259 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001293"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0404</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10404</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB104:04</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA1*0101/DRB1*0404</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*04:04</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*04:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*04:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001260 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001300"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0701</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10701</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB107:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA1*0101/DRB1*0701</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*07:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*07:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*07:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001261 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001302"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0801</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA/HLA-DRB1*0801</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10801</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB108:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*08:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*08:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*08:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001262 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001308"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0901</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10901</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB109:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*09:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*09:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*09:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001263 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001310"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*1101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB11101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB111:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*11:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*11:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*11:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001264 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001316"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*1301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB11301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB113:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*13:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*13:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*13:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001265 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001317"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*1302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB11302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB113:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*13:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*13:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*13:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001266 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001638"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*1454</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB11454</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB114:54</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*14:54</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*14:54</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*14:54 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001267 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001644"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*1501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB11501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB115:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*15:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*15:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*15:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001268 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001338"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB3*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB30101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB301:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*01:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB3*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB3*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001269 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001340"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB3*0202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB30202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB302:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*02:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB3*02:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB3*02:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001270 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001341"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB3*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB30301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB303:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB3*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB3*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001271 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001343"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB4*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB40101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB401:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB4*01:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB4*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB4*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001272 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001345"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB4*0103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB40103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB401:03</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB4*01:03</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB4*01:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB4*01:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001273 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001347"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB5*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB50101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB501:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB5*01:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB5*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB5*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001274 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001284"/>
+        <obo:IAO_0000118>HLA-DRA*0102/DRB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0102/DRB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:02/DRB103:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*03:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:02/DRB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:02/DRB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001275 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001316"/>
+        <obo:IAO_0000118>HLA-DRA*0102/DRB1*1301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0102/DRB11301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:02/DRB113:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*13:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:02/DRB1*13:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:02/DRB1*13:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001276 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001338"/>
+        <obo:IAO_0000118>HLA-DRA*0102/DRB3*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0102/DRB30101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:02/DRB301:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*01:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:02/DRB3*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:02/DRB3*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001277 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001340"/>
+        <obo:IAO_0000118>HLA-DRA*0102/DRB3*0202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0102/DRB30202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:02/DRB302:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*02:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:02/DRB3*02:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:02/DRB3*02:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001279 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001632"/>
+        <obo:IAO_0000118>HLA-DRB1*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*010101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB101:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001280 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001632"/>
+        <obo:IAO_0000118>HLA-DRB1*0102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*010201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB101:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*01:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*01:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001281 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001634"/>
+        <obo:IAO_0000118>HLA-DRB1*0103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB101:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*01:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*01:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001282 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001632"/>
+        <obo:IAO_0000118>HLA-DRB1*0104</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10104</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB101:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*01:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*01:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001283 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001632"/>
+        <obo:IAO_0000118>HLA-DRB1*0107</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10107</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB101:07</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*01:07</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*01:07 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001284 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001642"/>
+        <obo:IAO_0000118>HLA-DRB1*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*03011</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB103:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001285 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001643"/>
+        <obo:IAO_0000118>HLA-DRB1*0302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB103:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*03:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*03:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001286 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001643"/>
+        <obo:IAO_0000118>HLA-DRB1*0303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB103:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*03:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*03:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001287 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001642"/>
+        <obo:IAO_0000118>HLA-DRB1*0304</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10304</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB103:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*03:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*03:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001288 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001645"/>
+        <obo:IAO_0000118>HLA-DRB1*0305</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10305</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB103:05</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*03:05</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*03:05 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001289 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001642"/>
+        <obo:IAO_0000118>HLA-DRB1*0311</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10311</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB103:11</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*03:11</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*03:11 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001290 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*040101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001291 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001292 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0403</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*040301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10403</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001293 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0404</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10404</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001294 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0405</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*040501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10405</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:05</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:05</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:05 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001295 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0406</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10406</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:06</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:06</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:06 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001296 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0407</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*040701</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10407</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:07</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:07</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:07 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001297 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0408</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10408</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:08</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:08</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:08 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001298 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0410</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10410</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:10</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:10</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:10 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001299 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001646"/>
+        <obo:IAO_0000118>HLA-DRB1*0411</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10411</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB104:11</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*04:11</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*04:11 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001300 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001652"/>
+        <obo:IAO_0000118>HLA-DRB1*0701</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*070101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10701</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB107:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*07:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*07:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001302 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001653"/>
+        <obo:IAO_0000118>HLA-DRB1*0801</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*080101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10801</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB108:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*08:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*08:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001303 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001653"/>
+        <obo:IAO_0000118>HLA-DRB1*0802</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*080201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10802</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB108:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*08:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*08:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001304 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001653"/>
+        <obo:IAO_0000118>HLA-DRB1*0803</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*080302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10803</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB108:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*08:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*08:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001305 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001653"/>
+        <obo:IAO_0000118>HLA-DRB1*0804</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10804</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB108:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*08:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*08:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001306 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001653"/>
+        <obo:IAO_0000118>HLA-DRB1*0818</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10818</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB108:18</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*08:18</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*08:18 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001307 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001653"/>
+        <obo:IAO_0000118>HLA-DRB1*0820</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10820</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB108:20</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*08:20</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*08:20 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001308 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001654"/>
+        <obo:IAO_0000118>HLA-DRB1*0901</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*090102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB10901</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB109:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*09:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*09:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001309 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001633"/>
+        <obo:IAO_0000118>HLA-DRB1*1001</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*100101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11001</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB110:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*10:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*10:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001310 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001635"/>
+        <obo:IAO_0000118>HLA-DRB1*1101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*110101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*11011</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB111:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*11:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*11:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001311 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001635"/>
+        <obo:IAO_0000118>HLA-DRB1*1102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB111:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*11:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*11:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001312 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001635"/>
+        <obo:IAO_0000118>HLA-DRB1*1103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB111:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*11:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*11:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001313 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001635"/>
+        <obo:IAO_0000118>HLA-DRB1*1104</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*110401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11104</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB111:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*11:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*11:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001314 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001636"/>
+        <obo:IAO_0000118>HLA-DRB1*1201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*120101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB112:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*12:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*12:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001315 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001636"/>
+        <obo:IAO_0000118>HLA-DRB1*1202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB112:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*12:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*12:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001316 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001637"/>
+        <obo:IAO_0000118>HLA-DRB1*1301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*130101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001317 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001637"/>
+        <obo:IAO_0000118>HLA-DRB1*1302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*130201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001318 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001637"/>
+        <obo:IAO_0000118>HLA-DRB1*1303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*130301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11303</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001319 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001637"/>
+        <obo:IAO_0000118>HLA-DRB1*1304</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11304</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001320 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001637"/>
+        <obo:IAO_0000118>HLA-DRB1*1305</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11305</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:05</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:05</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:05 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001321 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001651"/>
+        <obo:IAO_0000118>HLA-DRB1*1307</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11307</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:07</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:07</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:07 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001322 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001637"/>
+        <obo:IAO_0000118>HLA-DRB1*1315</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11315</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:15</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:15</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:15 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001323 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001637"/>
+        <obo:IAO_0000118>HLA-DRB1*1368</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11368</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB113:68</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*13:68</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*13:68 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001324 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001638"/>
+        <obo:IAO_0000118>HLA-DRB1*1401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*140101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11401</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB114:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*14:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*14:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001325 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001638"/>
+        <obo:IAO_0000118>HLA-DRB1*1402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB114:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*14:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*14:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001326 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001639"/>
+        <obo:IAO_0000118>HLA-DRB1*1404</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11404</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB114:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*14:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*14:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001327 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001638"/>
+        <obo:IAO_0000118>HLA-DRB1*1405</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*140501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11405</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB114:05</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*14:05</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*14:05 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001328 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001638"/>
+        <obo:IAO_0000118>HLA-DRB1*1409</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11409</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB114:09</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*14:09</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*14:09 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001329 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001638"/>
+        <obo:IAO_0000118>HLA-DRB1*1410</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11410</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB114:10</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*14:10</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*14:10 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001331 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001640"/>
+        <obo:IAO_0000118>HLA-DRB1*1501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*150101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11501</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB115:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*15:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*15:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001332 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001640"/>
+        <obo:IAO_0000118>HLA-DRB1*1502</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*150201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11502</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB115:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*15:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*15:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001333 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001640"/>
+        <obo:IAO_0000118>HLA-DRB1*1503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11503</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB115:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*15:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*15:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001334 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001640"/>
+        <obo:IAO_0000118>HLA-DRB1*1504</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11504</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB115:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*15:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*15:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001335 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001641"/>
+        <obo:IAO_0000118>HLA-DRB1*1601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB116:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*16:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*16:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001336 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001641"/>
+        <obo:IAO_0000118>HLA-DRB1*1602</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11602</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB116:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*16:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*16:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001338 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001649"/>
+        <obo:IAO_0000118>HLA-DR52a</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*010101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB30101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB301:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB3*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB3*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001339 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001649"/>
+        <obo:IAO_0000118>HLA-DRB3*0201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB30201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB302:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB3*02:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB3*02:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001340 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001649"/>
+        <obo:IAO_0000118>HLA-DR52b</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*0202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*020201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB30202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB302:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB3*02:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB3*02:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001341 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001649"/>
+        <obo:IAO_0000118>HLA-DR52c</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*0301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB3*030101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB30301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB303:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB3*03:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB3*03:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001343 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001650"/>
+        <obo:IAO_0000118>HLA-DRB4*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB40101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB401:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB4*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB4*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001344 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001650"/>
+        <obo:IAO_0000118>HLA-DRB4*0102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB40102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB401:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB4*01:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB4*01:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001345 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001650"/>
+        <obo:IAO_0000118>HLA-DRB4*0103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB4*01030101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB40103</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB401:03</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB4*01:03</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB4*01:03 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001347 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001648"/>
+        <obo:IAO_0000118>HLA-DRB5*0101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB50101</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB501:01</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB5*01:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB5*01:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001348 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001648"/>
+        <obo:IAO_0000118>HLA-DRB5*0102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB50102</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB501:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB5*01:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB5*01:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001349 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001648"/>
+        <obo:IAO_0000118>HLA-DRB5*0201</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB5*0202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB50202</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB502:02</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB5*02:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB5*02:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001609 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DP1</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DP1 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001610 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DP4</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DP4 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001611 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DP5</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DP5 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001612 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DP9</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DP9 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001613 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPw1</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DPw1 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001614 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DP2</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPw2</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DPw2 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001615 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DP3</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPw3</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DPw3 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001616 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DP4</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPw4</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DPw4 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001617 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DP5</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPw5</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DPw5 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001618 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPw6</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DPw6 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001619 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DQw1</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ1</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ1 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001620 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DQw2</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ2</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ2 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001621 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ2.3</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ2.3 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001622 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DQw3</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ3</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ3 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001623 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ3.33</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ3.33 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001624 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ3t12</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ3t12 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001625 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ4</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ4 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001626 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DQw5</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ5</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ5 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001627 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DQw6</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ6</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ6 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001628 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DQw7</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ7</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ7 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001629 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DQw8</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ8</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ8 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001630 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ9</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ9 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001631 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQ9.2</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DQ9.2 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001632 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRw1</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR1</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR1 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001633 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRw10</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR10</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR10 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001634 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR103</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR103 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001635 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*11</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRw11</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR11</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR11 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001636 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DR12 DwH</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRw12</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR12</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR12 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001637 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*13</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRw13</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR13</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR13 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001638 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR14</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR14 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001639 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR1404</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR1404 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001640 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*15</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR15</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR15 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001641 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR16</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR16 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001642 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRw17</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR17</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR17 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001643 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR18</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR18 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001644 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR2</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR2 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001645 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*03</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR3</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR3 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001646 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*04</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR4</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR4 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001647 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR5</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR5 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001648 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR51</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR51 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001649 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB3*52</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRw52</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR52</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR52 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001650 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB4*53</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRw53</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR53</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR53 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001651 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRw6</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR6</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR6 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001652 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DR7 Dw11</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*07</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR7</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR7 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001653 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*08</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRw8</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR8</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR8 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001654 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001676"/>
+        <obo:IAO_0000118>HLA-DRB1*09</obo:IAO_0000118>
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DR9</obo:OBI_9991118>
+        <rdfs:label>HLA protein complex with DR9 serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001676 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001676">
+        <obo:MRO_0001984>serotype</obo:MRO_0001984>
+        <obo:OBI_9991118>human</obo:OBI_9991118>
+        <rdfs:label>human MHC class II protein complex with serotype</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001936 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001936">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001186"/>
+        <obo:IAO_0000118>HLA-DPA1*0103/DPB1*0601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10103/DPB10601</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA101:03/DPB106:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*06:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*01:03/DPB1*06:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*01:03/DPB1*06:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001941 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001240"/>
+        <obo:IAO_0000118>HLA-DQA1*0201/DQB1*0302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA10201/DQB10302</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQA102:01/DQB103:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB1*03:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQA1*02:01/DQB1*03:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DQA1*02:01/DQB1*03:02 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001943 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001943">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001626"/>
+        <obo:IAO_0000118>HLA-DQB1*0504</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB10504</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DQB105:04</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DQB1*05:04</obo:OBI_9991118>
+        <rdfs:label>HLA-DQB1*05:04 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001945 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001945">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001309"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*1001</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB11001</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB110:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*10:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*10:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*10:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001948 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001640"/>
+        <obo:IAO_0000118>HLA-DRB1*1506</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB11506</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB115:06</obo:IAO_0000118>
+        <obo:MRO_0001984>partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRB1*15:06</obo:OBI_9991118>
+        <rdfs:label>HLA-DRB1*15:06 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002299 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001609"/>
+        <obo:IAO_0000118>HLA-DPA1*0201/DPB1*1301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA10201/DPB11301</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPA102:01/DPB113:01</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DPB1*13:01</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DPA1*02:01/DPB1*13:01</obo:OBI_9991118>
+        <rdfs:label>HLA-DPA1*02:01/DPB1*13:01 protein complex</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0051213 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/MRO_0051213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001291"/>
+        <obo:IAO_0000118>HLA-DRA*0101/DRB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA0101/DRB10402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA01:01/DRB104:02</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRA1*0101/DRB1*0402</obo:IAO_0000118>
+        <obo:IAO_0000118>HLA-DRB1*04:02</obo:IAO_0000118>
+        <obo:MRO_0001984>complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118>HLA-DRA*01:01/DRB1*04:02</obo:OBI_9991118>
+        <rdfs:label>HLA-DRA*01:01/DRB1*04:02 protein complex</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

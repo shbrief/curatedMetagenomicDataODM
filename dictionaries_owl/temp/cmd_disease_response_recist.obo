@@ -1,0 +1,63 @@
+format-version: 1.2
+ontology: ncit
+
+[Term]
+id: NCIT:C159546
+name: RECIST Stable Disease
+def: "Neither sufficient shrinkage to qualify for partial response nor sufficient increase to qualify for progressive disease, taking as reference the smallest sum longest diameter since start of treatment." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
+subset: NCIT:C156952
+subset: NCIT:C156955
+subset: NCIT:C159328
+synonym: "RECIST Stable Disease" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Stable Disease" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CPTAC"}
+property_value: NCIT:NHC0 "C159546" xsd:string
+property_value: NCIT:P106 "Intellectual Product" xsd:string
+property_value: NCIT:P108 "RECIST Stable Disease" xsd:string
+property_value: NCIT:P208 "CL951384" xsd:string
+property_value: NCIT:P322 "CPTAC" xsd:string
+
+[Term]
+id: NCIT:C159547
+name: RECIST Partial Response
+def: "At least a 30% decrease in the sum of the longest diameter of target lesions, taking as reference the baseline sum longest diameter." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
+subset: NCIT:C156952
+subset: NCIT:C156955
+subset: NCIT:C159328
+synonym: "Partial Response" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CPTAC"}
+synonym: "RECIST Partial Response" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+property_value: NCIT:NHC0 "C159547" xsd:string
+property_value: NCIT:P106 "Intellectual Product" xsd:string
+property_value: NCIT:P108 "RECIST Partial Response" xsd:string
+property_value: NCIT:P208 "CL951385" xsd:string
+property_value: NCIT:P322 "CPTAC" xsd:string
+
+[Term]
+id: NCIT:C159715
+name: RECIST Complete Response
+def: "Disappearance of all target lesions." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
+subset: NCIT:C156952
+subset: NCIT:C156955
+subset: NCIT:C159328
+synonym: "Complete Response" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CPTAC"}
+synonym: "RECIST Complete Response" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+property_value: NCIT:NHC0 "C159715" xsd:string
+property_value: NCIT:P106 "Intellectual Product" xsd:string
+property_value: NCIT:P108 "RECIST Complete Response" xsd:string
+property_value: NCIT:P208 "CL951684" xsd:string
+property_value: NCIT:P322 "CPTAC" xsd:string
+
+[Term]
+id: NCIT:C159716
+name: RECIST Progressive Disease
+def: "At lease a 20% increase in the sum of the longest diameter of target lesions, taking as reference the smallest sum longest diameter recorded since the treatment started or the appearance of one or more new lesions." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
+subset: NCIT:C156952
+subset: NCIT:C156955
+subset: NCIT:C159328
+synonym: "Progressive Disease" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CPTAC"}
+synonym: "RECIST Progressive Disease" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+property_value: NCIT:NHC0 "C159716" xsd:string
+property_value: NCIT:P106 "Intellectual Product" xsd:string
+property_value: NCIT:P108 "RECIST Progressive Disease" xsd:string
+property_value: NCIT:P208 "CL951685" xsd:string
+property_value: NCIT:P322 "CPTAC" xsd:string
+

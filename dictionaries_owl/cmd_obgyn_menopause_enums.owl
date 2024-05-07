@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A31 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A31"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A32 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A32"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P375 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P385 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P385"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P393 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P393"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P394 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P394"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P395 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P395"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P396 -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P396"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C106541 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C106541">
+        <obo:IAO_0000115>An indicator as to whether the female subject is in menopause.</obo:IAO_0000115>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_NHC0>C106541</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Menopause Status</obo:NCIT_P108>
+        <obo:NCIT_P207>C1513126</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P325>The status of a female with respect to menopause.</obo:NCIT_P325>
+        <obo:NCIT_P366>Menopausal_Status</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>MENOSTAT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Menopausal Status</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Menopause Status</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>menopause status</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>menopause_status</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C106541</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106479"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159413"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177536"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Menopause Status</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>menopause status</annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>GDC</obo1:NCIT_P384>
+        <obo1:NCIT_P385>VAR</obo1:NCIT_P385>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>menopause_status</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>GDC</obo1:NCIT_P384>
+        <obo1:NCIT_P385>VAR</obo1:NCIT_P385>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>An indicator as to whether the female subject is in menopause.</annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>The status of a female with respect to menopause.</annotatedTarget>
+        <obo1:NCIT_P378>CDISC</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>MENOSTAT</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+        <obo1:NCIT_P385>SDTM-RPTESTCD</obo1:NCIT_P385>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Menopausal Status</annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Menopause Status</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+        <obo1:NCIT_P385>SDTM-RPTEST</obo1:NCIT_P385>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Menopause Status</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Menopause Status</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Menopause Status</annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15421 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15421">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <obo:IAO_0000115>After menopause.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <obo:NCIT_NHC0>C15421</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Postmenopausal</obo:NCIT_P108>
+        <obo:NCIT_P207>C0232970</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P325>Having to do with the time after menopause. Menopause (&quot;change of life&quot;) is the time in a woman&apos;s life when menstrual periods stop permanently.</obo:NCIT_P325>
+        <obo:NCIT_P325>The period of time after menopause.</obo:NCIT_P325>
+        <obo:NCIT_P366>Postmenopausal</obo:NCIT_P366>
+        <obo:NCIT_P375>Postmenopausal</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>POSTMENOPAUSAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Postmenopausal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>postmenopausal</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C15421</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185847"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Postmenopausal</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>After menopause.</annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>Having to do with the time after menopause. Menopause (&quot;change of life&quot;) is the time in a woman&apos;s life when menstrual periods stop permanently.</annotatedTarget>
+        <obo1:NCIT_P378>NCI-GLOSS</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>The period of time after menopause.</annotatedTarget>
+        <obo1:NCIT_P378>CDISC</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <annotatedTarget>Postmenopausal</annotatedTarget>
+        <obo1:NCIT_P393>Has Synonym</obo1:NCIT_P393>
+        <obo1:NCIT_P394>PT</obo1:NCIT_P394>
+        <obo1:NCIT_P395>menopause_status</obo1:NCIT_P395>
+        <obo1:NCIT_P396>GDC</obo1:NCIT_P396>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>POSTMENOPAUSAL</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Postmenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Postmenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>GDC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Postmenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15421"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>postmenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI-GLOSS</obo1:NCIT_P384>
+        <obo1:NCIT_P385>CDR0000045269</obo1:NCIT_P385>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15491 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <obo:IAO_0000115>Prior to menopause.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <obo:NCIT_NHC0>C15491</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Premenopausal</obo:NCIT_P108>
+        <obo:NCIT_P207>C0279752</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P325>Having to do with the time before menopause. Menopause (&quot;change of life&quot;) is the time of life when a woman&apos;s menstrual periods stop permanently.</obo:NCIT_P325>
+        <obo:NCIT_P325>The period of time before perimenopause.</obo:NCIT_P325>
+        <obo:NCIT_P366>Premenopausal</obo:NCIT_P366>
+        <obo:NCIT_P375>Premenopausal</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>PREMENOPAUSAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Premenopausal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>premenopausal</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C15491</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185847"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Premenopausal</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Prior to menopause.</annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>Having to do with the time before menopause. Menopause (&quot;change of life&quot;) is the time of life when a woman&apos;s menstrual periods stop permanently.</annotatedTarget>
+        <obo1:NCIT_P378>NCI-GLOSS</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>The period of time before perimenopause.</annotatedTarget>
+        <obo1:NCIT_P378>CDISC</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <annotatedTarget>Premenopausal</annotatedTarget>
+        <obo1:NCIT_P393>Has Synonym</obo1:NCIT_P393>
+        <obo1:NCIT_P394>PT</obo1:NCIT_P394>
+        <obo1:NCIT_P395>menopause_status</obo1:NCIT_P395>
+        <obo1:NCIT_P396>GDC</obo1:NCIT_P396>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>PREMENOPAUSAL</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Premenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Premenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>GDC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Premenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15491"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>premenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI-GLOSS</obo1:NCIT_P384>
+        <obo1:NCIT_P385>CDR0000045268</obo1:NCIT_P385>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15692 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <obo:IAO_0000115>Describes the time in a woman&apos;s life as she approaches menopause. This is usually three to five years before menopause and is often marked by irregular menstrual periods and many of the symptoms of menopause, including hot flashes, mood swings, night sweats, vaginal dryness, trouble concentrating, and infertility.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C106541"/>
+        <obo:NCIT_NHC0>C15692</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Perimenopausal</obo:NCIT_P108>
+        <obo:NCIT_P207>C3839366</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P325>Describes the time in a woman&apos;s life when menstrual periods become irregular as she approaches menopause. This is usually three to five years before menopause and is often marked by many of the symptoms of menopause, including hot flashes, mood swings, night sweats, vaginal dryness, trouble concentrating, and infertility.</obo:NCIT_P325>
+        <obo:NCIT_P325>The 10 or so years immediately prior to menopause when the subject experiences symptoms of menopause.</obo:NCIT_P325>
+        <obo:NCIT_P366>Perimenopausal</obo:NCIT_P366>
+        <obo:NCIT_P375>Perimenopausal</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Menopause Transitional Phase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PERIMENOPAUSAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Perimenopausal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>perimenopausal</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C15692</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185847"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Perimenopausal</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Describes the time in a woman&apos;s life as she approaches menopause. This is usually three to five years before menopause and is often marked by irregular menstrual periods and many of the symptoms of menopause, including hot flashes, mood swings, night sweats, vaginal dryness, trouble concentrating, and infertility.</annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>Describes the time in a woman&apos;s life when menstrual periods become irregular as she approaches menopause. This is usually three to five years before menopause and is often marked by many of the symptoms of menopause, including hot flashes, mood swings, night sweats, vaginal dryness, trouble concentrating, and infertility.</annotatedTarget>
+        <obo1:NCIT_P378>NCI-GLOSS</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>The 10 or so years immediately prior to menopause when the subject experiences symptoms of menopause.</annotatedTarget>
+        <obo1:NCIT_P378>CDISC</obo1:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <annotatedTarget>Perimenopausal</annotatedTarget>
+        <obo1:NCIT_P393>Has Synonym</obo1:NCIT_P393>
+        <obo1:NCIT_P394>PT</obo1:NCIT_P394>
+        <obo1:NCIT_P395>menopause_status</obo1:NCIT_P395>
+        <obo1:NCIT_P396>GDC</obo1:NCIT_P396>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Menopause Transitional Phase</annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>PERIMENOPAUSAL</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Perimenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CPTAC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Perimenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>GDC</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Perimenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15692"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>perimenopausal</annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI-GLOSS</obo1:NCIT_P384>
+        <obo1:NCIT_P385>CDR0000045826</obo1:NCIT_P385>
+    </Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

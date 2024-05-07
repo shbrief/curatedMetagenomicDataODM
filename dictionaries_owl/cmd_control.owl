@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P386 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P386"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142703">
+        <obo:IAO_0000115>A comparator treatment in a clinical trial against which the treatment under study is evaluated. (ICH)</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C142703</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P107>Study Control</obo:NCIT_P107>
+        <obo:NCIT_P108>Study Control</obo:NCIT_P108>
+        <obo:NCIT_P208>CL541309</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A comparator against which the study treatment is evaluated [e.g., concurrent (placebo, no treatment, dose-response, active), and external (historical, published literature, synthetic data)]. [After ICH E10]. See also comparator (product), control group, controlled study, arm (protocol), synthetic data.</obo:NCIT_P325>
+        <obo:NCIT_P325>A comparator product against which the study treatment is evaluated [e.g., concurrent (placebo, no treatment, dose-response, active), and external (historical, published literature)]. [After ICH E10]</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Control Product</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Study Control</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>control</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C142703</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C174221"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
+        <rdfs:label>Study Control</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142703"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A comparator treatment in a clinical trial against which the treatment under study is evaluated. (ICH)</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142703"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A comparator against which the study treatment is evaluated [e.g., concurrent (placebo, no treatment, dose-response, active), and external (historical, published literature, synthetic data)]. [After ICH E10]. See also comparator (product), control group, controlled study, arm (protocol), synthetic data.</owl:annotatedTarget>
+        <obo1:NCIT_P378>CDISC-GLOSS</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142703"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A comparator product against which the study treatment is evaluated [e.g., concurrent (placebo, no treatment, dose-response, active), and external (historical, published literature)]. [After ICH E10]</owl:annotatedTarget>
+        <obo1:NCIT_P378>CDISC</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142703"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Control Product</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142703"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Study Control</owl:annotatedTarget>
+        <obo1:NCIT_P383>DN</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CTRP</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142703"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Study Control</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142703"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>control</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CDISC-GLOSS</obo1:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49152">
+        <obo:IAO_0000115>A problem requiring investigation.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C49152</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Qualitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Case</obo:NCIT_P108>
+        <obo:NCIT_P207>C1706256</obo:NCIT_P207>
+        <obo:NCIT_P322>CTDC</obo:NCIT_P322>
+        <obo:NCIT_P322>ICDC</obo:NCIT_P322>
+        <obo:NCIT_P366>Case</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Case</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Study Case</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>case</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C49152</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173071"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C175518"/>
+        <rdfs:label>Case</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49152"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Case</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>caDSR</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49152"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical Study Case</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49152"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>case</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>CTDC</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49152"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>case</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>ICDC</obo1:NCIT_P384>
+        <obo1:NCIT_P386>ICDC</obo1:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49152"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A problem requiring investigation.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49152"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Case</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C69062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C69062">
+        <obo:IAO_0000115>Not employed or utilized.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C69062</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Qualitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Not Used</obo:NCIT_P108>
+        <obo:NCIT_P207>C0445107</obo:NCIT_P207>
+        <obo:NCIT_P366>Not_Used</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Not Used</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Unused</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C69062</oboInOwl:id>
+        <rdfs:label>Not Used</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Not employed or utilized.</owl:annotatedTarget>
+        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69062"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Not Used</owl:annotatedTarget>
+        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69062"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Unused</owl:annotatedTarget>
+        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
+        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

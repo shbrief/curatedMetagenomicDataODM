@@ -1,0 +1,34 @@
+format-version: 1.2
+data-version: releases/2023-10-19
+subsetdef: oncotree_slim ""
+remark: NCI Thesaurus, a controlled vocabulary in support of NCI administrative and scientific activities. Produced by the Enterprise Vocabulary System (EVS), a project by the NCI Center for Biomedical Informatics and Information Technology. National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, U.S.A.
+ontology: ncit
+property_value: defaultLanguage "en" xsd:string
+property_value: http://purl.org/dc/terms/description "The NCIt OBO Edition project aims to increase integration of the NCIt with OBO Library ontologies. NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities." xsd:string
+property_value: http://purl.org/dc/terms/isVersionOf http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl
+property_value: http://purl.org/dc/terms/title "NCI Thesaurus OBO Edition" xsd:string
+property_value: owl:versionInfo "23.09d" xsd:string
+
+[Term]
+id: NCIT:C159546
+name: RECIST Stable Disease
+is_a: NCIT:C49164
+is_obsolete: 0
+
+[Term]
+id: NCIT:C159547
+name: RECIST Partial Response
+is_a: NCIT:C49164
+is_obsolete: 0
+
+[Term]
+id: NCIT:C159715
+name: RECIST Complete Response
+is_a: NCIT:C49164
+is_obsolete: 0
+
+[Term]
+id: NCIT:C159716
+name: RECIST Progressive Disease
+is_a: NCIT:C49164
+is_obsolete: 0

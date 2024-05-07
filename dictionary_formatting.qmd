@@ -225,11 +225,13 @@ attrName <- "curator"
 attrVals <- dd %>% filter(col.name == attrName) %>%
     select(allowedvalues) %>% unlist %>%
     strsplit(., split = ";|\\|") %>% .[[1]] %>% 
-    unique %>% sort %>% c("label", .)
+    unique 
+updatedAttrVals <- c(attrVals, "Alice_Bassetto") %>% sort %>% c("label", .)
+
 
 ## Save the list of static ontology terms
 fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
-writeLines(attrVals, fpath)
+writeLines(updatedAttrVals, fpath)
 ```
 
 ## fmt_role
