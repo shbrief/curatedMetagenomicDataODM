@@ -49,11 +49,11 @@
         "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_feces_phenotype_metric.csv",
         "description": "Measurements collected from stool sample, including observation, chemical test, and diagnostic procedure"
     },
-        {
+    {
         "name": "cMD fmt_role",
         "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_fmt_role.csv",
         "description": "The role of the FMT (Fecal microbiota transplantation) participants. For recipient's samples, timing information (i.e., before or after FMT) is included as well."
-    }
+    },
     {
         "name": "cMD hla_enums",
         "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_hla_enums.owl",
