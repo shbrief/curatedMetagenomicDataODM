@@ -85,7 +85,7 @@
         "description": "The pregnancy status of an individual."
     },
     {
-        "name": "cMD probing_porcket_depth",
+        "name": "cMD probing_pocket_depth",
         "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_probing_pocket_depth.csv",
         "description": "Depth of periodontal pocket measured at the different tooth's regions"
     },
