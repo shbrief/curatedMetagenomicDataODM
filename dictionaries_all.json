@@ -1,117 +1,117 @@
 [
     {
         "name": "cMD age_group",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_age_group.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_age_group.owl",
         "description": "Persons classified by age from birth (infant, newborn) to octogenarians and older (aged, 80 and over)."
     },
     {
         "name": "cMD age_unit",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_age_unit.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_age_unit.owl",
         "description": "Unit of the subject's age specified under 'age' column"
     },
     {
         "name": "cMD control",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_control.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_control.owl",
         "description": "Whether the sample is control, case, or not used in the study"
     },
     {
         "name": "cMD country_enums",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_country_enums.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_country_enums.owl",
         "description": "Location where subject lives and/or data was collected"
     },
     {
         "name": "cMD curator",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_curator.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_curator.csv",
         "description": "Curator name"
     },
     {
         "name": "cMD dietary_restriction",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_dietary_restriction.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_dietary_restriction.csv",
         "description": "Dietary regime (partial match to SNOMED:182922004 or SNOMED:162536008)"
     },
     {
         "name": "cMD disease_response_RECIST",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_disease_response_recist.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_disease_response_recist.owl",
         "description": "Response Evaluation Criteria in Solid Tumors (RECIST, DICOM:112022)"
     },
     {
         "name": "cMD dna_extraction_kit",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_dna_extraction_kit.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_dna_extraction_kit.csv",
         "description": "Name of the DNA extraction kit"
     },
     {
         "name": "cMD family_role",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_family_role.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_family_role.csv",
         "description": "Role in the family when multiple samples come from the same family but different persons."
     },
     {
         "name": "cMD feces_phenotype_metric",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_feces_phenotype_metric.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_feces_phenotype_metric.csv",
         "description": "Measurements collected from stool sample, including observation, chemical test, and diagnostic procedure"
     },
     {
         "name": "cMD fmt_role",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_fmt_role.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_fmt_role.csv",
         "description": "The role of the FMT (Fecal microbiota transplantation) participants. For recipient's samples, timing information (i.e., before or after FMT) is included as well."
     },
     {
         "name": "cMD hla_enums",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_hla_enums.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_hla_enums.owl",
         "description": "HLA complex"
     },
     {
         "name": "cMD lifestyle",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_lifestyle.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_lifestyle.csv",
         "description": "to describe the lifestyle of non-westernized people"
     },
     {
         "name": "cMD neonatal_delivery_procedure",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_neonatal_delivery_procedure.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_neonatal_delivery_procedure.owl",
         "description": "Description of the method by which a fetus is delivered. (NCIT:C81179)"
     },
     {
         "name": "cMD neonatal_feeding_method",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_neonatal_feeding_method.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_neonatal_feeding_method.csv",
         "description": "Infant feeding methods. 'Breastfeeding' refers feeding milk from human (include non-mother's and through bottle), 'Mixed_feeding' refers both breastfeeding and formula feeding, 'Exclusively Breastfeeding;Mixed Feeding' referes the cases where any breastfeeding was done but formula feeding information is unavailable."
     },
     {
         "name": "cMD obgyn_menopause_enums",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_obgyn_menopause_enums.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_obgyn_menopause_enums.owl",
         "description": "An indicator as to whether the female subject is in menopause"
     },
     {
         "name": "cMD obgyn_pregnancy",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_obgyn_pregnancy.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_obgyn_pregnancy.csv",
         "description": "The pregnancy status of an individual."
     },
     {
-        "name": "cMD probing_porcket_depth",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_probing_pocket_depth.csv",
+        "name": "cMD probing_pocket_depth",
+        "url": "https://storage.googleapis.com/odm_template/cmd_probing_pocket_depth.csv",
         "description": "Depth of periodontal pocket measured at the different tooth's regions"
     },
     {
         "name": "cMD sex",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_sex.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_sex.csv",
         "description": "Biological sex of the subject"
     },
     {
         "name": "cMD smoker",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_smoker.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_smoker.csv",
         "description": "Tobacco smoking behavior"
     },
     {
         "name": "cMD treatment_enums",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_treatment_enums.owl",
+        "url": "https://storage.googleapis.com/odm_template/cmd_treatment_enums.owl",
         "description": "Medication(s)/treatment(s) applied to the subject"
     },
     {
         "name": "cMD tumor_staging_ajcc",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_tumor_staging_ajcc.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_tumor_staging_ajcc.csv",
         "description": "A system to describe the amount and spread of cancer in a patient's body"
     },
     {
-        "name": "cMD zigosity",
-        "url": "s3://gs50-cuny-trial-data/dictionaries/cmd_zigosity.csv",
-        "description": "Zigosity."
+        "name": "cMD zygosity",
+        "url": "https://storage.googleapis.com/odm_template/cmd_zygosity.csv",
+        "description": "Zygosity."
     }
 ]

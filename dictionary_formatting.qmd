@@ -22,7 +22,8 @@ knitr::opts_chunk$set(comment = "#>",
 ```
 
 ```{r}
-dd <- readr::read_csv("~/OmicsMLRepo/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
+#dd <- readr::read_csv("~/OmicsMLRepo/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
+dd <- readr::read_csv("~/Desktop/Work/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
 ```
 
 # NCIT
@@ -141,9 +142,6 @@ robot extract --method subset \
     --output dictionaries_owl/cmd_${attrName}.owl
 ```
 
-
-
-
 ## treatment (dynamic enums)
 ```{bash}
 ## Used dynamic enum node for cMD_treatment
@@ -187,13 +185,57 @@ robot extract --method MIREOT \
 # FMA
 Download `fma.owl` version 5.0.0 from https://bioportal.bioontology.org/ontologies/FMA.
 
+# HANCESTRO
+Download `hancestro.owl` from https://obofoundry.org/.
 
+## ancestry
+```{r}
+attrName <- "ancestry"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
 
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
 
+```{bash}
+attrName="ancestry"
+robot extract --method subset \
+    --input ontologies/hancestro.owl \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+# UBERON
+Download `uberon.owl` from https://obofoundry.org/.
+
+## body_site
+```{r}
+attrName <- "body_site"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="body_site"
+robot extract --method subset \
+    --input ontologies/uberon.owl \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
 
 # Simple CSV
 ## smoker
-`snomed.owl` is a bit ticky to download. I made the simple csv for this attribute.
+`snomed.owl` is a bit tricky to download. I made the simple csv for this attribute.
 ```{r}
 attrName <- "smoker"
 attrVals <- dd %>% filter(col.name == attrName) %>%
