@@ -1,6 +1,6 @@
 ---
 title: "cMD metadata dictionary formatting for Genestack ODM"
-author: "Sehyun Oh, Jason Hwee, Xiang Li"
+author: "Sehyun Oh"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
@@ -171,6 +171,33 @@ robot extract --method MIREOT \
     --output dictionaries_owl/cmd_${attrName}_enums.owl
 ```
 
+## disease (dynamic enums)
+```{r}
+obo <- ontologyIndex::get_ontology("~/Projects/curatedMetagenomicDataODM/ontologies/efo.obo")
+```
+
+```{bash}
+attrName="disease"
+robot extract --method MIREOT \
+    --input ontologies/ncit.obo \
+    --branch-from-term "NCIT:C7057" \
+    --output dictionaries_owl/cmd_${attrName}_NCIT_enums.owl
+    
+## Download `efo.obo` from http://www.ebi.ac.uk/efo/efo.obo
+## wget http://www.ebi.ac.uk/efo/efo.obo in the `ontologies` directory
+robot extract --method MIREOT \
+    --input ontologies/efo.obo \
+    --branch-from-term "http://www.ebi.ac.uk/efo/EFO_0000408" \
+    --output dictionaries_owl/cmd_${attrName}_EFO_enums.owl
+
+robot merge \
+    --input dictionaries_owl/cmd_disease_NCIT_enums.owl \
+    --input dictionaries_owl/cmd_disease_EFO_enums.owl \
+    --output dictionaries_owl/cmd_${attrName}_enums.owl
+```
+
+
+
 
 # MRO
 Download `mro.owl` from https://obofoundry.org/.
@@ -193,7 +220,7 @@ Download `fma.owl` version 5.0.0 from https://bioportal.bioontology.org/ontologi
 
 # Simple CSV
 ## smoker
-`snomed.owl` is a bit ticky to download. I made the simple csv for this attribute.
+`snomed.owl` is a bit tricky to download. I made the simple csv for this attribute.
 ```{r}
 attrName <- "smoker"
 attrVals <- dd %>% filter(col.name == attrName) %>%
