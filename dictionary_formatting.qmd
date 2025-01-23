@@ -286,10 +286,10 @@ fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
 writeLines(attrVals, fpath)
 ```
 
-## zigosity
+## zygosity
 No ontology terms used for this attribute.
 ```{r}
-attrName <- "zigosity"
+attrName <- "zygosity"
 attrVals <- dd %>% filter(col.name == attrName) %>%
     select(allowedvalues) %>% unlist %>%
     strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
