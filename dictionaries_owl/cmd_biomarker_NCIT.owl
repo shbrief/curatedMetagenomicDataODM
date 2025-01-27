@@ -1,0 +1,3199 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A13 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A13"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A28 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A28"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A32 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A32"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A33 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A33"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A48 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A48"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P375 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P381 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P381"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P385 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P385"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P386 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P386"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P393 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P393"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P394 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P394"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P395 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P395"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P396 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P396"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C105585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105585">
+        <obo:IAO_0000115>The determination of the amount of glucose present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <obo:NCIT_NHC0>C105585</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Glucose Measurement</obo:NCIT_P107>
+        <obo:NCIT_P108>Glucose Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0337438</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the glucose in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P375>Glucose</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>GLUC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glucose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glucose Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C105585</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Glucose Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of glucose present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucose Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the glucose in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Glucose</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>laboratory_test</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GLUC</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucose</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucose</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucose</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucose</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucose Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C105586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105586">
+        <obo:IAO_0000115>The determination of the amount of total cholesterol present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C105586</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Cholesterol Measurement</obo:NCIT_P108>
+        <obo:NCIT_P208>CL473823</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the cholesterol in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>CHOL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cholesterol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cholesterol Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Total Cholesterol</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C105586</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Cholesterol Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105586"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of total cholesterol present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105586"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the cholesterol in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105586"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CHOL</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105586"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cholesterol</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105586"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cholesterol</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105586"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cholesterol Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105586"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Total Cholesterol</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C105587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105587">
+        <obo:IAO_0000115>The determination of the amount of high-density lipoprotein cholesterol present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C105587</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>High Density Lipoprotein Cholesterol Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0392885</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the high density lipoprotein cholesterol in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>HDL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HDL Cholesterol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HDL Cholesterol Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>High Density Lipoprotein Cholesterol Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C105587</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>High Density Lipoprotein Cholesterol Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105587"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of high-density lipoprotein cholesterol present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105587"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the high density lipoprotein cholesterol in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HDL</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HDL Cholesterol</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HDL Cholesterol</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HDL Cholesterol Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>High Density Lipoprotein Cholesterol Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C110935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C110935">
+        <obo:IAO_0000115>A laboratory test that estimates kidney function. It is calculated using an individual&apos;s serum creatinine measurement, age, gender, and race. Actual results are reported when the estimated glomerular filtration rate is less than 60 ml/min.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C110935</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Estimated Glomerular Filtration Rate</obo:NCIT_P108>
+        <obo:NCIT_P207>C3811844</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A kidney function test that estimates the fluid volume that is filtered from the kidney glomeruli to the Bowman&apos;s capsule per unit of time.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Estimated Glomerular Filtration Rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GFRE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glomerular Filtration Rate, Estimated</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>eGFR</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C110935</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Estimated Glomerular Filtration Rate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A laboratory test that estimates kidney function. It is calculated using an individual&apos;s serum creatinine measurement, age, gender, and race. Actual results are reported when the estimated glomerular filtration rate is less than 60 ml/min.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A kidney function test that estimates the fluid volume that is filtered from the kidney glomeruli to the Bowman&apos;s capsule per unit of time.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Estimated Glomerular Filtration Rate</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Estimated Glomerular Filtration Rate</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GFRE</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glomerular Filtration Rate, Estimated</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glomerular Filtration Rate, Estimated</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>eGFR</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C110935"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>eGFR</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120636">
+        <obo:IAO_0000115>The determination of the LDL particles present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C120636</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>LDL Particles Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C4054685</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the concentration of the total LDL particles in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>LDL Particles</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LDL Particles Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LDLP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C120636</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>LDL Particles Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120636"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the LDL particles present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120636"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the concentration of the total LDL particles in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120636"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDL Particles</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120636"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDL Particles</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120636"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDL Particles Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120636"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDLP</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C125949 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C125949">
+        <obo:IAO_0000115>The determination of the amount of urea nitrogen present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C125949</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Urea Nitrogen Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0202238</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the urea nitrogen in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>UREAN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Urea Nitrogen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Urea Nitrogen Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C125949</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Urea Nitrogen Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125949"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of urea nitrogen present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125949"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the urea nitrogen in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125949"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>UREAN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125949"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Urea Nitrogen</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125949"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Urea Nitrogen</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125949"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Urea Nitrogen Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C141271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C141271">
+        <obo:IAO_0000115>The determination of the ratio of neutrophils compared to lymphocytes present in a biological sample. The measurement may be expressed as a ratio or percentage.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C141271</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Neutrophil to Lymphocyte Ratio Measurement</obo:NCIT_P108>
+        <obo:NCIT_P208>CL539407</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A relative measurement (ratio) of the neutrophils to lymphocytes in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>NEUTLY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NLR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Neutrophil to Lymphocyte Ratio Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Neutrophils/Lymphocytes</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C141271</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Neutrophil to Lymphocyte Ratio Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the ratio of neutrophils compared to lymphocytes present in a biological sample. The measurement may be expressed as a ratio or percentage.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A relative measurement (ratio) of the neutrophils to lymphocytes in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NEUTLY</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NLR</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Neutrophil to Lymphocyte Ratio Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Neutrophils/Lymphocytes</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Neutrophils/Lymphocytes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C141271"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Neutrophils/Lymphocytes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C154727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C154727">
+        <obo:IAO_0000115>The determination of the amount of fibroblast growth factor 19 present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96328"/>
+        <obo:NCIT_NHC0>C154727</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Fibroblast Growth Factor 19 Measurement</obo:NCIT_P108>
+        <obo:NCIT_P208>CL555571</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the fibroblast growth factor 19 in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>FGF 19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FGF19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FGF19 Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fibroblast Growth Factor 19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fibroblast Growth Factor 19 Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C154727</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Fibroblast Growth Factor 19 Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of fibroblast growth factor 19 present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the fibroblast growth factor 19 in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>FGF 19</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>FGF19</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>FGF19 Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Fibroblast Growth Factor 19</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Fibroblast Growth Factor 19</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154727"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Fibroblast Growth Factor 19 Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C154728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C154728">
+        <obo:IAO_0000115>The determination of the amount of scavenger receptor cysteine-rich type 1 protein M130 present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C104062"/>
+        <obo:NCIT_NHC0>C154728</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Scavenger Receptor Cysteine-Rich Type 1 Protein M130 Measurement</obo:NCIT_P108>
+        <obo:NCIT_P208>CL555572</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the scavenger receptor cysteine-rich type 1 protein M130 in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>M130</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Scavenger Rcpt Cys-Rich Type1 Prot M130</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Scavenger Receptor Cysteine-Rich Type 1 Protein M130</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Scavenger Receptor Cysteine-Rich Type 1 Protein M130 Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Soluble CD163</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Soluble CD163a</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C154728</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Scavenger Receptor Cysteine-Rich Type 1 Protein M130 Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of scavenger receptor cysteine-rich type 1 protein M130 present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the scavenger receptor cysteine-rich type 1 protein M130 in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>M130</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Scavenger Rcpt Cys-Rich Type1 Prot M130</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Scavenger Rcpt Cys-Rich Type1 Prot M130</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Scavenger Receptor Cysteine-Rich Type 1 Protein M130</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Scavenger Receptor Cysteine-Rich Type 1 Protein M130 Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Soluble CD163</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154728"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Soluble CD163a</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C157114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C157114">
+        <obo:IAO_0000115>The determination of the amount of C-reactive protein (CRP) present in a sample through the use of immunonephelometry, immunoturbidimetry, high-sensitivity enzyme-linked immunosorbent assay (ELISA) and/or resonant acoustic profiling (RAP). This test is optimized to measure lower concentrations of CRP than a conventional CRP test.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C60649"/>
+        <obo:NCIT_NHC0>C157114</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>High Sensitivity C-Reactive Protein Measurement</obo:NCIT_P107>
+        <obo:NCIT_P108>High Sensitivity C-Reactive Protein Measurement</obo:NCIT_P108>
+        <obo:NCIT_P208>CL936817</obo:NCIT_P208>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>High Sensitivity C-Reactive Protein Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>High Sensitivity CRP Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>High-Sensitivity C-Reactive Protein Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>High-Sensitivity CRP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hs-CRP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hsCRP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C157114</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142800"/>
+        <rdfs:label>High Sensitivity C-Reactive Protein Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of C-reactive protein (CRP) present in a sample through the use of immunonephelometry, immunoturbidimetry, high-sensitivity enzyme-linked immunosorbent assay (ELISA) and/or resonant acoustic profiling (RAP). This test is optimized to measure lower concentrations of CRP than a conventional CRP test.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>High Sensitivity C-Reactive Protein Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>High Sensitivity C-Reactive Protein Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>High Sensitivity CRP Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>High-Sensitivity C-Reactive Protein Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>High-Sensitivity CRP</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>hs-CRP</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>hsCRP</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C176760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C176760">
+        <obo:IAO_0000115>A measurement of the total amount of anti-platelet antibody in a biological specimen.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C176760</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Platelet Antibody Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C2739807</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>APA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>APA Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anti platelet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anti-Platelet Antibody Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Antiplatelet Antibody Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Platelet Antibody Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C176760</oboInOwl:id>
+        <rdfs:label>Platelet Antibody Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A measurement of the total amount of anti-platelet antibody in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>APA</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>APA Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anti platelet</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anti-Platelet Antibody Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Antiplatelet Antibody Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Antiplatelet Antibody Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176760"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Platelet Antibody Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C201455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C201455">
+        <obo:IAO_0000115>The determination of the amount of creatine present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C201455</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Creatine Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0302272</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the creatine in a biological specimen.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>CREATINE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Creatine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Creatine Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C201455</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116103"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116104"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Creatine Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201455"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of creatine present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201455"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the creatine in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201455"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CREATINE</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-NVTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201455"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-NVTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201455"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatine</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201455"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatine Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25298">
+        <obo:IAO_0000115>The maximum pressure exerted into the systemic arterial circulation during the contraction of the left ventricle of the heart.</obo:IAO_0000115>
+        <obo:NCIT_A48 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A48 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49670"/>
+        <obo:NCIT_NHC0>C25298</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Systolic Blood Pressure</obo:NCIT_P108>
+        <obo:NCIT_P207>C0871470</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>ICDC</obo:NCIT_P322>
+        <obo:NCIT_P322>NCPDP</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>Systolic blood pressure value recorded closest to the time of presentation to the health care facility</obo:NCIT_P325>
+        <obo:NCIT_P325>The maximum blood pressure in the systemic arterial circulation during the cardiac cycle.</obo:NCIT_P325>
+        <obo:NCIT_P366>Systolic_Pressure</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>SYSBP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Systolic Blood Pressure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Systolic Pressure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Systolic blood pressure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>systolic bp</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>systolic_bp</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C25298</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120532"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120533"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C166373"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179532"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191200"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191385"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191402"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191670"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66741"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67153"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89415"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C91101"/>
+        <rdfs:label>Systolic Blood Pressure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCPDP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic blood pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P385>VAR</obo:NCIT_P385>
+        <obo:NCIT_P386>SARS2</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>systolic bp</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>ICDC</obo:NCIT_P384>
+        <obo:NCIT_P386>ICDC</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>systolic_bp</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ICDC</obo:NCIT_P384>
+        <obo:NCIT_P386>ICDC</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The maximum pressure exerted into the systemic arterial circulation during the contraction of the left ventricle of the heart.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Systolic blood pressure value recorded closest to the time of presentation to the health care facility</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
+        <obo:NCIT_P381>SARS2</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The maximum blood pressure in the systemic arterial circulation during the cardiac cycle.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SYSBP</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-VSTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SYSBP</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SEND-SCVTSTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-VSTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25298"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Systolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SEND-SCVTST</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25299">
+        <obo:IAO_0000115>The minimum pressure exerted into the systemic arterial circulation during cardiac ventricular relaxation and filling.</obo:IAO_0000115>
+        <obo:NCIT_A48 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A48 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49670"/>
+        <obo:NCIT_NHC0>C25299</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Diastolic Blood Pressure</obo:NCIT_P108>
+        <obo:NCIT_P207>C0428883</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>NCPDP</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>Diastolic blood pressure value recorded closest to the time of presentation to the health care facility</obo:NCIT_P325>
+        <obo:NCIT_P325>The minimum blood pressure in the systemic arterial circulation during the cardiac cycle.</obo:NCIT_P325>
+        <obo:NCIT_P366>Diastolic_Pressure</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>DIABP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diastolic Blood Pressure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diastolic Pressure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diastolic blood pressure</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C25299</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120532"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120533"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179532"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191200"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191385"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191402"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191670"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66741"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67153"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89415"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C91101"/>
+        <rdfs:label>Diastolic Blood Pressure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The minimum pressure exerted into the systemic arterial circulation during cardiac ventricular relaxation and filling.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Diastolic blood pressure value recorded closest to the time of presentation to the health care facility</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
+        <obo:NCIT_P381>SARS2</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The minimum blood pressure in the systemic arterial circulation during the cardiac cycle.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>DIABP</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-VSTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>DIABP</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SEND-SCVTSTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-VSTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SEND-SCVTST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCPDP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic Blood Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic Pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diastolic blood pressure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P385>VAR</obo:NCIT_P385>
+        <obo:NCIT_P386>SARS2</obo:NCIT_P386>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C62656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62656">
+        <obo:IAO_0000115>A measurement of the clotting time of plasma recalcified in the presence of excess tissue thromboplastin; it is a measure of the extrinsic pathway of coagulation. It is used to determine the clotting tendency of blood, in the measure of warfarin dosage, liver damage and vitamin K status. Factors measured are fibrinogen, prothrombin, and factors V, VII, and X.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82852"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <obo:NCIT_NHC0>C62656</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Prothrombin Time</obo:NCIT_P108>
+        <obo:NCIT_P207>C0033707</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A blood clotting measurement that evaluates the extrinsic pathway of coagulation.</obo:NCIT_P325>
+        <obo:NCIT_P366>Prothrombin_Time_Test</obo:NCIT_P366>
+        <obo:NCIT_P375>Prothrombin Time</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>PT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prothrombin Time</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prothrombin Time Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C62656</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Prothrombin Time</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A measurement of the clotting time of plasma recalcified in the presence of excess tissue thromboplastin; it is a measure of the extrinsic pathway of coagulation. It is used to determine the clotting tendency of blood, in the measure of warfarin dosage, liver damage and vitamin K status. Factors measured are fibrinogen, prothrombin, and factors V, VII, and X.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A blood clotting measurement that evaluates the extrinsic pathway of coagulation.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Prothrombin Time</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>laboratory_test</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PT</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PT</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PT</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prothrombin Time</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prothrombin Time</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prothrombin Time</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prothrombin Time</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prothrombin Time Test</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64431">
+        <obo:IAO_0000115>A quantitative measurement of albumin present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <obo:NCIT_NHC0>C64431</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Albumin Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0201838</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the albumin protein in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Albumin_Measurement</obo:NCIT_P366>
+        <obo:NCIT_P375>Albumin</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>ALB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Albumin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Albumin Level</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Albumin Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Microalbumin</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64431</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157528"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186323"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Albumin Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of albumin present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the albumin protein in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Albumin</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>laboratory_test</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ALB</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Albumin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Albumin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Albumin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Albumin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Albumin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Albumin Level</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Albumin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Microalbumin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64433">
+        <obo:IAO_0000115>A quantitative measurement of alanine aminotransferase present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C64433</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Alanine Aminotransferase Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0201836</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the alanine aminotransferase in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P325>The concentration of alanine aminotransferase, a liver enzyme, in the blood, expressed in units per liter.</obo:NCIT_P325>
+        <obo:NCIT_P366>Alanine_Aminotransferase_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>ALT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alanine Aminotransferase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alanine Aminotransferase Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alanine aminotransferase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SGPT</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64433</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C167409"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Alanine Aminotransferase Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of alanine aminotransferase present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the alanine aminotransferase in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The concentration of alanine aminotransferase, a liver enzyme, in the blood, expressed in units per liter.</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ALT</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ALT</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alanine Aminotransferase</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alanine Aminotransferase</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alanine Aminotransferase Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alanine aminotransferase</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P386>PCC</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64433"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SGPT</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64467">
+        <obo:IAO_0000115>A quantitative measurement of aspartate aminotransferase present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C64467</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Aspartate Aminotransferase Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0201899</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the aspartate aminotransferase in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Aspartate_Aminotransferase_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>AST</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Aspartate Aminotransferase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Aspartate Aminotransferase Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SGOT</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64467</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Aspartate Aminotransferase Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of aspartate aminotransferase present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the aspartate aminotransferase in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>AST</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>AST</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Aspartate Aminotransferase</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Aspartate Aminotransferase</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Aspartate Aminotransferase Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64467"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SGOT</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64481">
+        <obo:IAO_0000115>The bilirubin is bound to glucuronide to form conjugated bilirubin (direct bilirubin). Direct Bilirubin measurement is accomplished by a colorimetric method. Direct Bilirubin in biological fluids reacts with sulfanilic acid at acidic pH to produce a red colored complex. The optical density of produced color has a direct relationship with Direct Bilirubin concentration in the solution.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C64481</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Direct Bilirubin Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0201916</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the conjugated or water-soluble bilirubin in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Direct_Bilirubin_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>BILDIR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Direct Bilirubin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Direct Bilirubin Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64481</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Direct Bilirubin Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64481"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The bilirubin is bound to glucuronide to form conjugated bilirubin (direct bilirubin). Direct Bilirubin measurement is accomplished by a colorimetric method. Direct Bilirubin in biological fluids reacts with sulfanilic acid at acidic pH to produce a red colored complex. The optical density of produced color has a direct relationship with Direct Bilirubin concentration in the solution.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64481"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the conjugated or water-soluble bilirubin in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64481"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>BILDIR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64481"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Direct Bilirubin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64481"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Direct Bilirubin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64481"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Direct Bilirubin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64481"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Direct Bilirubin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64547">
+        <obo:IAO_0000115>A quantitative measurement of the amount of creatinine present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <obo:NCIT_NHC0>C64547</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Creatinine Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0201975</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the creatinine in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Creatinine_Measurement</obo:NCIT_P366>
+        <obo:NCIT_P375>Creatinine</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>CREAT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Creatinine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Creatinine Level</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Creatinine Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64547</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157528"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157529"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Creatinine Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of the amount of creatinine present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the creatinine in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Creatinine</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>laboratory_test</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CREAT</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cr</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatinine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatinine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatinine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatinine</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatinine</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatinine Level</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64547"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Creatinine Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62656"/>
+        <obo:IAO_0000115>A measure of the extrinsic pathway of coagulation. The International Normalized Ratio of Prothrombin Time (INR) is the ratio of a patient prothrombin time to a normal (control) sample raised to the power of the International Sensitivity Index (ISI) with a range of 0.8 to 1.2 seconds.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82852"/>
+        <obo:NCIT_NHC0>C64805</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>International Normalized Ratio of Prothrombin Time</obo:NCIT_P108>
+        <obo:NCIT_P207>C0525032</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A ratio that represents the prothrombin time for a plasma specimen, divided by the result for a control plasma specimen, further standardized for the International Sensitivity Index of the tissue factor (thromboplastin) used in the test.</obo:NCIT_P325>
+        <obo:NCIT_P366>International_Normalized_Ratio_of_Prothrombin_Time</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>INR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>International Normalized Ratio of Prothrombin Time</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prothrombin Intl. Normalized Ratio</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64805</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>International Normalized Ratio of Prothrombin Time</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64805"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A measure of the extrinsic pathway of coagulation. The International Normalized Ratio of Prothrombin Time (INR) is the ratio of a patient prothrombin time to a normal (control) sample raised to the power of the International Sensitivity Index (ISI) with a range of 0.8 to 1.2 seconds.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64805"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A ratio that represents the prothrombin time for a plasma specimen, divided by the result for a control plasma specimen, further standardized for the International Sensitivity Index of the tissue factor (thromboplastin) used in the test.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>INR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>INR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>International Normalized Ratio of Prothrombin Time</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prothrombin Intl. Normalized Ratio</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prothrombin Intl. Normalized Ratio</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64812">
+        <obo:IAO_0000115>A quantitative measurement of the amount of triglyceride present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C64812</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Triglyceride Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0202236</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the triglycerides in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Triglyceride_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>TRIG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Triglyceride Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Triglycerides</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64812</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Triglyceride Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64812"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of the amount of triglyceride present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64812"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the triglycerides in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64812"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TRIG</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64812"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Triglyceride Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64812"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Triglycerides</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64812"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Triglycerides</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64812"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Triglycerides</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64849">
+        <obo:IAO_0000115>A quantitative measurement of the amount of glycosylated hemoglobin present in a sample of blood.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C64849</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Glycosylated Hemoglobin Measurement</obo:NCIT_P107>
+        <obo:NCIT_P108>Glycosylated Hemoglobin Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0202054</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the glycosylated hemoglobin A1C in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Glycosylated_Hemoglobin_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Glycated Hemoglobin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glycosylated Hemoglobin A1C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glycosylated Hemoglobin Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HBA1C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HbA1c</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hemoglobin A1C</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64849</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142800"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Glycosylated Hemoglobin Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of the amount of glycosylated hemoglobin present in a sample of blood.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the glycosylated hemoglobin A1C in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glycated Hemoglobin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glycosylated Hemoglobin A1C</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glycosylated Hemoglobin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glycosylated Hemoglobin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HBA1C</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HbA1c</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hemoglobin A1C</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64849"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hemoglobin A1C</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64855">
+        <obo:IAO_0000115>A quantitative measurement of the amount of lactate dehydrogenase present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A28 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117142"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <obo:NCIT_A33 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117142"/>
+        <obo:NCIT_NHC0>C64855</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Lactate Dehydrogenase Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0202113</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the lactate dehydrogenase in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Lactate_Dehydrogenase_Measurement</obo:NCIT_P366>
+        <obo:NCIT_P375>Lactate Dehydrogenase</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>LDH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LDH Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lactate Dehydrogenase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lactate Dehydrogenase Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C64855</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159418"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C174237"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C174250"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177398"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186323"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Lactate Dehydrogenase Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of the amount of lactate dehydrogenase present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the lactate dehydrogenase in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Lactate Dehydrogenase</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>laboratory_test</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>EWS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>GCT</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Lactate Dehydrogenase</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Lactate Dehydrogenase</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Lactate Dehydrogenase</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C64855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Lactate Dehydrogenase Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74611">
+        <obo:IAO_0000115>A quantitative measurement of the distance that red blood cells travel in one hour in a sample of unclotted blood.</obo:IAO_0000115>
+        <obo:NCIT_A28 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117142"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <obo:NCIT_NHC0>C74611</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Erythrocyte Sedimentation Rate Measurement</obo:NCIT_P107>
+        <obo:NCIT_P108>Erythrocyte Sedimentation Rate Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C1176468</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A quantitative measurement of the distance that red blood cells settle in one hour in a sample of unclotted blood. Used in the evaluation of systemic inflammation.</obo:NCIT_P325>
+        <obo:NCIT_P325>A quantitative measurement of the distance that red blood cells travel in 1 hour in a sample of unclotted blood.</obo:NCIT_P325>
+        <obo:NCIT_P325>The distance (e.g. millimeters) that red blood cells settle in unclotted blood over a specified unit of time (e.g. one hour).</obo:NCIT_P325>
+        <obo:NCIT_P325>The distance red blood cells travel in one hour in a sample of blood as they settle to the bottom of a test tube. The sedimentation rate is increased in inflammation, infection, cancer, rheumatic diseases, and diseases of the blood and bone marrow.</obo:NCIT_P325>
+        <obo:NCIT_P366>Erythrocyte_Sedimentation_Rate_Measurement</obo:NCIT_P366>
+        <obo:NCIT_P375>Erythrocyte Sedimentation Rate</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Biernacki Reaction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ESR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Erythrocyte Sedimentation Rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Erythrocyte Sedimentation Rate Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Erythrocyte sedimentation rate (ESR)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sed Rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>erythrocyte sedimentation rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sedimentation rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C74611</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118468"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159339"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159418"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C167409"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C174237"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C174250"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186323"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Erythrocyte Sedimentation Rate Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quantitative measurement of the distance that red blood cells travel in one hour in a sample of unclotted blood.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A quantitative measurement of the distance that red blood cells settle in one hour in a sample of unclotted blood. Used in the evaluation of systemic inflammation.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A quantitative measurement of the distance that red blood cells travel in 1 hour in a sample of unclotted blood.</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The distance (e.g. millimeters) that red blood cells settle in unclotted blood over a specified unit of time (e.g. one hour).</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The distance red blood cells travel in one hour in a sample of blood as they settle to the bottom of a test tube. The sedimentation rate is increased in inflammation, infection, cancer, rheumatic diseases, and diseases of the blood and bone marrow.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Erythrocyte Sedimentation Rate</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>laboratory_test</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Biernacki Reaction</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ESR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P386>PCC</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ESR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ESR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>EWS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ESR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ESR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>OS</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ESR</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Erythrocyte Sedimentation Rate</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Erythrocyte Sedimentation Rate</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Erythrocyte Sedimentation Rate</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Erythrocyte Sedimentation Rate</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Erythrocyte Sedimentation Rate Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Erythrocyte Sedimentation Rate Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Erythrocyte sedimentation rate (ESR)</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Sed Rate</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>erythrocyte sedimentation rate</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000354459</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74611"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>sedimentation rate</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000354461</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74736">
+        <obo:IAO_0000115>The determination of the amount of C-peptide present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C24514"/>
+        <obo:NCIT_NHC0>C74736</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>C-peptide Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0202100</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the C (connecting) peptide of insulin in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P325>A test used to help diagnose a type of pancreatic tumor called an insulinoma. After fasting, the patient receives an injection of insulin and the level of C-peptide (a substance released with insulin by the pancreas) in the blood is measured.  In patients who have an insulinoma, the level of C-peptide is higher than normal.</obo:NCIT_P325>
+        <obo:NCIT_P366>C-peptide_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>C-peptide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>C-peptide Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>C-peptide suppression test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CPEPTIDE</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C74736</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>C-peptide Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of C-peptide present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the C (connecting) peptide of insulin in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A test used to help diagnose a type of pancreatic tumor called an insulinoma. After fasting, the patient receives an injection of insulin and the level of C-peptide (a substance released with insulin by the pancreas) in the blood is measured.  In patients who have an insulinoma, the level of C-peptide is higher than normal.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>C-peptide</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>C-peptide</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>C-peptide Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>C-peptide suppression test</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000657837</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74736"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CPEPTIDE</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74738">
+        <obo:IAO_0000115>The determination of the amount of globulin protein present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C74738</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Globulin Protein Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C0877347</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the globulin protein in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Globulin_Protein_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>GLOBUL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Globulin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Globulin Protein Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C74738</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Globulin Protein Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74738"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of globulin protein present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74738"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the globulin protein in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74738"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GLOBUL</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74738"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Globulin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74738"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Globulin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74738"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Globulin Protein Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74805">
+        <obo:IAO_0000115>The determination of the amount of interleukin 1 present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28592"/>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28593"/>
+        <obo:NCIT_NHC0>C74805</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Interleukin 1 Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C2697768</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the interleukin 1 in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Interleukin_1_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>INTLK1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Interleukin 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Interleukin 1 Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C74805</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Interleukin 1 Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74805"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of interleukin 1 present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74805"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the interleukin 1 in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>INTLK1</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Interleukin 1</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Interleukin 1</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74805"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Interleukin 1 Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74839">
+        <obo:IAO_0000115>The determination of the amount of adiponectin hormone present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C94784"/>
+        <obo:NCIT_NHC0>C74839</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Adiponectin Measurement</obo:NCIT_P107>
+        <obo:NCIT_P108>Adiponectin Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C2700366</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the total adiponectin hormone in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Adiponectin_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>ADPNCTN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adiponectin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adiponectin Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C74839</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142800"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Adiponectin Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74839"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of adiponectin hormone present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74839"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the total adiponectin hormone in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74839"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ADPNCTN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74839"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adiponectin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74839"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adiponectin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74839"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adiponectin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74839"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adiponectin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74866">
+        <obo:IAO_0000115>The determination of the amount of leptin hormone present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95047"/>
+        <obo:NCIT_NHC0>C74866</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Leptin Measurement</obo:NCIT_P107>
+        <obo:NCIT_P108>Leptin Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C1295176</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the leptin hormone in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Leptin_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>LEPTIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Leptin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Leptin Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C74866</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142800"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Leptin Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74866"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of leptin hormone present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74866"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the leptin hormone in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LEPTIN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Leptin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Leptin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Leptin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Leptin Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C80183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80183">
+        <obo:IAO_0000115>The determination of the amount of glucagon-like peptide-1 present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C24422"/>
+        <obo:NCIT_NHC0>C80183</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Glucagon-like Peptide-1 Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C2697503</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the total glucagon-like peptide-1 in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Glucagon-like_Peptide-1_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>GLP1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glucagon-Like Peptide-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glucagon-like Peptide-1 Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Total Glucagon-Like Peptide-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C80183</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Glucagon-like Peptide-1 Measurement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80183"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The determination of the amount of glucagon-like peptide-1 present in a sample.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80183"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measurement of the total glucagon-like peptide-1 in a biological specimen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80183"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GLP1</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80183"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucagon-Like Peptide-1</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80183"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucagon-Like Peptide-1</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80183"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glucagon-like Peptide-1 Measurement</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80183"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Total Glucagon-Like Peptide-1</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

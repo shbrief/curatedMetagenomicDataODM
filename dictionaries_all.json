@@ -10,6 +10,21 @@
         "description": "Unit of the subject's age specified under 'age' column"
     },
     {
+        "name": "cMD ancestry",
+        "url": "https://storage.googleapis.com/odm_template/cmd_ancestry.owl",
+        "description": "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data (children of HANCESTRO:0004)"
+    },
+    {
+        "name": "cMD biomarker",
+        "url": "https://storage.googleapis.com/odm_template/cmd_biomarker_enums.owl",
+        "description": "A measurable and quantifiable characteristic or substance that serves as an indicator of a biological state, condition, or process within an organism."
+    },
+    {
+        "name": "cMD body_site",
+        "url": "https://storage.googleapis.com/odm_template/cmd_body_site.owl",
+        "description": "Subject's bodysite the given sample was collected from"
+    },
+    {
         "name": "cMD control",
         "url": "https://storage.googleapis.com/odm_template/cmd_control.owl",
         "description": "Whether the sample is control, case, or not used in the study"
@@ -95,9 +110,19 @@
         "description": "Biological sex of the subject"
     },
     {
+        "name": "cMD sequencing_platform",
+        "url": "https://storage.googleapis.com/odm_template/cmd_sequencing_platform.csv",
+        "description": "A scientific instrument used to automate the DNA sequencing process"
+    },
+    {
         "name": "cMD smoker",
         "url": "https://storage.googleapis.com/odm_template/cmd_smoker.csv",
         "description": "Tobacco smoking behavior"
+    },
+    {
+        "name": "cMD target_condition",
+        "url": "https://storage.googleapis.com/odm_template/cmd_target_condition_enums.owl",
+        "description": "Main phenotype(s)/condition(s) of interest for a given study"
     },
     {
         "name": "cMD treatment_enums",

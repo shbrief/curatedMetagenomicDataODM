@@ -1,0 +1,2593 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A23 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A23"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A32 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A32"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A37 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A37"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A39 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A39"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A40 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A40"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A48 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A48"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P317 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P317"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P331 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P331"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P334 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P334"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P363 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P363"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P368 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P368"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P375 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P381 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P381"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P385 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P385"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P386 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P386"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P393 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P393"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P394 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P394"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P395 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P395"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P396 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P396"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P397 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P397"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C115965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C115965">
+        <obo:IAO_0000115>Inflammation of the mucous membranes.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C115965</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Mucositis</obo:NCIT_P108>
+        <obo:NCIT_P207>C0333355</obo:NCIT_P207>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>Inflammation of the mucous membranes.</obo:NCIT_P325>
+        <obo:NCIT_P375>Mucositis</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Mucositis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C115965</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186327"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186334"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Mucositis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C115965"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Inflammation of the mucous membranes.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C115965"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Inflammation of the mucous membranes.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C115965"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Mucositis</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10028127</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C115965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Mucositis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C115965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Mucositis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C115965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Mucositis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C125642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C125642">
+        <obo:IAO_0000115>A non-taxonomic group of parasitic worms. The term may be used to describe flatworms (Platyhelminthes), namely cestodes (tapeworms) and trematodes (flukes), and roundworms (Nematoda). These are common infectious agents of humans in developing countries.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C125642</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Classification</obo:NCIT_P106>
+        <obo:NCIT_P108>Helminth</obo:NCIT_P108>
+        <obo:NCIT_P207>C0018893</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Helminth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Helminths</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C125642</oboInOwl:id>
+        <rdfs:label>Helminth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125642"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A non-taxonomic group of parasitic worms. The term may be used to describe flatworms (Platyhelminthes), namely cestodes (tapeworms) and trematodes (flukes), and roundworms (Nematoda). These are common infectious agents of humans in developing countries.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Helminth</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C125642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Helminths</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C157812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C157812">
+        <obo:IAO_0000115>An acute diarrheal illness caused by consuming water or food contaminated by the bacterium Vibrio cholerae. Adequate rehydration is key to surviving this illness.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C157812</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Cholera</obo:NCIT_P108>
+        <obo:NCIT_P207>C0008354</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Cholera</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C157812</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <rdfs:label>Cholera</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157812"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An acute diarrheal illness caused by consuming water or food contaminated by the bacterium Vibrio cholerae. Adequate rehydration is key to surviving this illness.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157812"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cholera</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157812"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cholera</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184689">
+        <obo:NCIT_NHC0>C184689</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Bacterium</obo:NCIT_P106>
+        <obo:NCIT_P108>Shiga Toxin-producing Escherichia coli</obo:NCIT_P108>
+        <obo:NCIT_P207>C0580794</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any bacterial organism that can be assigned to the species Escherichia coli and produces shiga toxin (also called shiga-like toxin).</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>SHIGA TOXIN-PRODUCING ESCHERICHIA COLI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>STEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Shiga Toxin-producing E. coli</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Shiga Toxin-producing Escherichia coli</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Shiga-like Toxin-producing E. coli</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C184689</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85491"/>
+        <rdfs:label>Shiga Toxin-producing Escherichia coli</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184689"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Any bacterial organism that can be assigned to the species Escherichia coli and produces shiga toxin (also called shiga-like toxin).</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184689"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SHIGA TOXIN-PRODUCING ESCHERICHIA COLI</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184689"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>STEC</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184689"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Shiga Toxin-producing E. coli</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184689"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Shiga Toxin-producing Escherichia coli</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184689"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Shiga-like Toxin-producing E. coli</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19151">
+        <obo:IAO_0000115>The spread or migration of cancer cells from one part of the body (the organ in which it first appeared) to another. The secondary tumor contains cells that are like those in the original (primary) tumor.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C19151</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pathologic Function</obo:NCIT_P106>
+        <obo:NCIT_P108>Metastasis</obo:NCIT_P108>
+        <obo:NCIT_P207>C0027627</obo:NCIT_P207>
+        <obo:NCIT_P325>The spread of cancer from one part of the body to another. A tumor formed by cells that have spread is called a &quot;metastatic tumor&quot; or a &quot;metastasis.&quot; The metastatic tumor contains cells that are like those in the original (primary) tumor.</obo:NCIT_P325>
+        <obo:NCIT_P366>Metastasis</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Metastasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metastasize</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tumor Cell Migration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>metastasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>metastasize</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C19151</oboInOwl:id>
+        <rdfs:label>Metastasis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The spread or migration of cancer cells from one part of the body (the organ in which it first appeared) to another. The secondary tumor contains cells that are like those in the original (primary) tumor.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The spread of cancer from one part of the body to another. A tumor formed by cells that have spread is called a &quot;metastatic tumor&quot; or a &quot;metastasis.&quot; The metastatic tumor contains cells that are like those in the original (primary) tumor.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Metastasis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Metastasis</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Metastasize</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tumor Cell Migration</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>metastasis</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046710</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19151"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>metastasize</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046283</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26747">
+        <obo:IAO_0000115>A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16457"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17103"/>
+        <obo:NCIT_NHC0>C26747</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Type 2 Diabetes Mellitus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0011860</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P325>Diabetes mellitus caused by decreased insulin action in target tissues and insufficient production of insulin by pancreatic beta cells.</obo:NCIT_P325>
+        <obo:NCIT_P366>Non-Insulin_Dependent_Diabetes_Mellitus</obo:NCIT_P366>
+        <obo:NCIT_P375>Diabetes, Type II</obo:NCIT_P375>
+        <obo:NCIT_P375>Type II diabetes mellitus</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Adult Onset Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adult-Onset Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetes, Type 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetes, Type II</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NIDDM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Non-Insulin Dependent Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Non-Insulin Dependent Diabetes Mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Noninsulin Dependent Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T2DM - Type 2 Diabetes mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type 2 Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type 2 Diabetes Mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type 2 Diabetes Mellitus Non-Insulin Dependent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type II Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type II Diabetes Mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type II Diabetes mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type II diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C26747</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118467"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159416"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Type 2 Diabetes Mellitus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Diabetes mellitus caused by decreased insulin action in target tissues and insufficient production of insulin by pancreatic beta cells.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Diabetes, Type II</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>comorbidities</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Diabetes, Type II</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>risk_factors</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Type II diabetes mellitus</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10045242</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adult Onset Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>AQS</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adult Onset Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adult-Onset Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diabetes, Type 2</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diabetes, Type II</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NIDDM</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Non-Insulin Dependent Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Non-Insulin Dependent Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Noninsulin Dependent Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>AQS</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Noninsulin Dependent Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>T2DM - Type 2 Diabetes mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 2 Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 2 Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 2 Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>Cellosaurus</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 2 Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 2 Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 2 Diabetes Mellitus Non-Insulin Dependent</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type II Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>AQS</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type II Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type II Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type II Diabetes mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>SeroNet</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26747"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type II diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26845">
+        <obo:IAO_0000115>A progressive degenerative disorder of the central nervous system characterized by loss of dopamine producing neurons in the substantia nigra and the presence of Lewy bodies in the substantia nigra and locus coeruleus. Signs and symptoms include tremor which is most pronounced during rest, muscle rigidity, slowing of the voluntary movements, a tendency to fall back, and a mask-like facial expression.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C26845</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Parkinson Disease</obo:NCIT_P108>
+        <obo:NCIT_P207>C0030567</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P322>mCode</obo:NCIT_P322>
+        <obo:NCIT_P325>A progressive disorder of the nervous system marked by muscle tremors, muscle rigidity, decreased mobility, stooped posture, slow voluntary movements, and a mask-like facial expression.</obo:NCIT_P325>
+        <obo:NCIT_P366>Parkinson_s_Disease</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Parkinson Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Parkinson&apos;s Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Parkinson&apos;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C26845</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158034"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C193194"/>
+        <rdfs:label>Parkinson Disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A progressive degenerative disorder of the central nervous system characterized by loss of dopamine producing neurons in the substantia nigra and the presence of Lewy bodies in the substantia nigra and locus coeruleus. Signs and symptoms include tremor which is most pronounced during rest, muscle rigidity, slowing of the voluntary movements, a tendency to fall back, and a mask-like facial expression.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A progressive disorder of the nervous system marked by muscle tremors, muscle rigidity, decreased mobility, stooped posture, slow voluntary movements, and a mask-like facial expression.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Parkinson Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>Cellosaurus</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Parkinson Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Parkinson&apos;s Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Parkinson&apos;s Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Parkinson&apos;s Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Parkinson&apos;s disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000044140</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26845"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Parkinson&apos;s disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>mCode</obo:NCIT_P384>
+        <obo:NCIT_P385>G20</obo:NCIT_P385>
+        <obo:NCIT_P386>ICD-10 CM</obo:NCIT_P386>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C28397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C28397">
+        <obo:IAO_0000115>A chronic respiratory disease manifested as difficulty breathing due to the narrowing of bronchial passageways.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16457"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17103"/>
+        <obo:NCIT_NHC0>C28397</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Asthma</obo:NCIT_P108>
+        <obo:NCIT_P207>C4229310</obo:NCIT_P207>
+        <obo:NCIT_P317>Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P325>A chronic disease in which the bronchial airways in the lungs become narrowed and swollen, making it difficult to breathe. Symptoms include wheezing, coughing, tightness in the chest, shortness of breath, and rapid breathing. An attack may be brought on by pet hair, dust, smoke, pollen, mold, exercise, cold air, or stress.</obo:NCIT_P325>
+        <obo:NCIT_P325>A chronic respiratory disease caused by obstruction of the bronchi and small airways, and characterized by wheezing and shortness of breath.</obo:NCIT_P325>
+        <obo:NCIT_P325>A chronic respiratory disease manifested as difficulty breathing due to the narrowing of bronchial passageways.</obo:NCIT_P325>
+        <obo:NCIT_P366>Asthma</obo:NCIT_P366>
+        <obo:NCIT_P375>Asthma</obo:NCIT_P375>
+        <oboInOwl:hasDbXref>IMDRF:E0706</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Asthma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>asthma</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C28397</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186336"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54450"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62596"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Asthma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A chronic respiratory disease manifested as difficulty breathing due to the narrowing of bronchial passageways.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A chronic disease in which the bronchial airways in the lungs become narrowed and swollen, making it difficult to breathe. Symptoms include wheezing, coughing, tightness in the chest, shortness of breath, and rapid breathing. An attack may be brought on by pet hair, dust, smoke, pollen, mold, exercise, cold air, or stress.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A chronic respiratory disease caused by obstruction of the bronchi and small airways, and characterized by wheezing and shortness of breath.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A chronic respiratory disease manifested as difficulty breathing due to the narrowing of bronchial passageways.</owl:annotatedTarget>
+        <obo:NCIT_P378>FDA</obo:NCIT_P378>
+        <obo:NCIT_P381>CDRH</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10003553</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>comorbidities</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>risk_factors</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>Cellosaurus</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P385>1726</obo:NCIT_P385>
+        <obo:NCIT_P386>CDRH</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>SeroNet</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28397"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>asthma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000440101</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2855">
+        <obo:IAO_0000115>A neoplasm arising from the epithelium.  It may be encapsulated or non-encapsulated but non-invasive.  The neoplastic epithelial cells may or may not display cellular atypia or dysplasia.  In the gastrointestinal tract, when dysplasia becomes severe it is sometimes called carcinoma in situ.  Representative examples are pituitary gland adenoma, follicular adenoma of the thyroid gland, and adenomas (or adenomatous polyps) of the gastrointestinal tract.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176985"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177621"/>
+        <obo:NCIT_NHC0>C2855</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Neoplastic Process</obo:NCIT_P106>
+        <obo:NCIT_P108>Adenoma</obo:NCIT_P108>
+        <obo:NCIT_P207>C0001430</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A benign neoplasm arising from epithelium.</obo:NCIT_P325>
+        <obo:NCIT_P325>A tumor that is not cancer. It starts in gland-like cells of the epithelial tissue (thin layer of tissue that covers organs, glands, and other structures within the body).</obo:NCIT_P325>
+        <obo:NCIT_P334>8140/0</obo:NCIT_P334>
+        <obo:NCIT_P363>Undetermined</obo:NCIT_P363>
+        <obo:NCIT_P366>Adenoma</obo:NCIT_P366>
+        <obo:NCIT_P375>8140/0</obo:NCIT_P375>
+        <obo:NCIT_P375>Adenoma, NOS</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>ADENOMA, BENIGN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adenoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adenoma, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adenoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C2855</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168655"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168656"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168657"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168658"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168661"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C168662"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C88025"/>
+        <rdfs:label>Adenoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neoplasm arising from the epithelium.  It may be encapsulated or non-encapsulated but non-invasive.  The neoplastic epithelial cells may or may not display cellular atypia or dysplasia.  In the gastrointestinal tract, when dysplasia becomes severe it is sometimes called carcinoma in situ.  Representative examples are pituitary gland adenoma, follicular adenoma of the thyroid gland, and adenomas (or adenomatous polyps) of the gastrointestinal tract.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A benign neoplasm arising from epithelium.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A tumor that is not cancer. It starts in gland-like cells of the epithelial tissue (thin layer of tissue that covers organs, glands, and other structures within the body).</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>8140/0</owl:annotatedTarget>
+        <obo:NCIT_P393>Related To</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>morphology</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Adenoma, NOS</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>primary_diagnosis</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Adenoma, NOS</owl:annotatedTarget>
+        <obo:NCIT_P393>Related To</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>8140/0</obo:NCIT_P395>
+        <obo:NCIT_P396>ICDO3</obo:NCIT_P396>
+        <obo:NCIT_P397>3.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Adenoma, NOS</owl:annotatedTarget>
+        <obo:NCIT_P393>Related To</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>8140/0</obo:NCIT_P395>
+        <obo:NCIT_P396>ICDO3</obo:NCIT_P396>
+        <obo:NCIT_P397>3.2</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ADENOMA, BENIGN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adenoma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adenoma, NOS</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2855"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>adenoma</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046217</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2866">
+        <obo:IAO_0000115>A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C2866</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:NCIT_P108>Alzheimer&apos;s Disease</obo:NCIT_P108>
+        <obo:NCIT_P207>C0002395</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P322>mCode</obo:NCIT_P322>
+        <obo:NCIT_P325>A brain disorder that usually starts in late middle age or old age and gets worse over time. Symptoms include loss of memory, confusion, difficulty thinking, and changes in language, behavior, and personality.</obo:NCIT_P325>
+        <obo:NCIT_P366>Alzheimer_s_Disease</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Alzheimer Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimer dementia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimer disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimer&apos;s Dementia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimer&apos;s Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimer&apos;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimer&apos;s disease, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C2866</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158034"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C193184"/>
+        <rdfs:label>Alzheimer&apos;s Disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer&apos;s disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>SeroNet</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer&apos;s disease, unspecified</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>mCode</obo:NCIT_P384>
+        <obo:NCIT_P385>G30.9</obo:NCIT_P385>
+        <obo:NCIT_P386>ICD-10 CM</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A brain disorder that usually starts in late middle age or old age and gets worse over time. Symptoms include loss of memory, confusion, difficulty thinking, and changes in language, behavior, and personality.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer dementia</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000546730</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000476291</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer&apos;s Dementia</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer&apos;s Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer&apos;s Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>Cellosaurus</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alzheimer&apos;s Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2889">
+        <obo:IAO_0000115>A disorder resulting from loss of function or tissue destruction of an organ or multiple organs, arising from humoral or cellular immune responses of the individual to his own tissue constituents. It may be systemic (e.g., systemic lupus erythematosus), or organ specific, (e.g., thyroiditis).</obo:IAO_0000115>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:NCIT_NHC0>C2889</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P107>Autoimmune Disease</obo:NCIT_P107>
+        <obo:NCIT_P108>Autoimmune Disease</obo:NCIT_P108>
+        <obo:NCIT_P207>C4013832</obo:NCIT_P207>
+        <obo:NCIT_P317>Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322>CTCAE</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P325>A condition in which the body recognizes its own tissues as foreign and directs an immune response against them.</obo:NCIT_P325>
+        <obo:NCIT_P325>A disorder resulting from loss of function or tissue destruction of an organ or multiple organs, arising from humoral or cellular immune responses of the individual to his own tissue constituents.</obo:NCIT_P325>
+        <obo:NCIT_P325>A disorder that may result in abnormality, impaired function or damage of one or more organs or tissues, arising from autoreactive humoral or cellular immune responses.</obo:NCIT_P325>
+        <obo:NCIT_P366>Autoimmune_Disease</obo:NCIT_P366>
+        <oboInOwl:hasDbXref>IMDRF:E0401</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Autoimmune Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Autoimmune Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Autoimmune disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Autoimmune disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>autoimmune disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C2889</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118168"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118468"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178718"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179026"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186315"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54450"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62596"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C99147"/>
+        <rdfs:label>Autoimmune Disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A disorder resulting from loss of function or tissue destruction of an organ or multiple organs, arising from humoral or cellular immune responses of the individual to his own tissue constituents. It may be systemic (e.g., systemic lupus erythematosus), or organ specific, (e.g., thyroiditis).</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A condition in which the body recognizes its own tissues as foreign and directs an immune response against them.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A disorder resulting from loss of function or tissue destruction of an organ or multiple organs, arising from humoral or cellular immune responses of the individual to his own tissue constituents.</owl:annotatedTarget>
+        <obo:NCIT_P378>CTCAE</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A disorder resulting from loss of function or tissue destruction of an organ or multiple organs, arising from humoral or cellular immune responses of the individual to his own tissue constituents.</owl:annotatedTarget>
+        <obo:NCIT_P378>FDA</obo:NCIT_P378>
+        <obo:NCIT_P381>CDRH</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A disorder that may result in abnormality, impaired function or damage of one or more organs or tissues, arising from autoreactive humoral or cellular immune responses.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Disorder</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P385>1732</obo:NCIT_P385>
+        <obo:NCIT_P386>CDRH</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Disorder</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Disorder</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>SeroNet</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune disorder</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CTCAE</obo:NCIT_P384>
+        <obo:NCIT_P385>E11258</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>autoimmune disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000045604</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2986">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2889"/>
+        <obo:IAO_0000115>A chronic condition characterized by minimal or absent production of insulin by the pancreas.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17103"/>
+        <obo:NCIT_NHC0>C2986</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Type 1 Diabetes Mellitus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0011854</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P325>Diabetes mellitus caused by cell-mediated autoimmune destruction of pancreatic beta cells.</obo:NCIT_P325>
+        <obo:NCIT_P366>Insulin_Dependent_Diabetes_Mellitus</obo:NCIT_P366>
+        <obo:NCIT_P375>Diabetes, Type I</obo:NCIT_P375>
+        <obo:NCIT_P375>Type I diabetes mellitus</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Diabetes Mellitus (Type I)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetes, Type I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IDDM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Immune Mediated Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Insulin Dependent Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Insulin Dependent Diabetes Mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Juvenile Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type 1 Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type 1 Diabetes Mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type I Diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type I Diabetes Mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type I Diabetes mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type I diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C2986</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118467"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159416"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186315"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Type 1 Diabetes Mellitus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A chronic condition characterized by minimal or absent production of insulin by the pancreas.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+        <obo:NCIT_P381>NICHD</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Diabetes mellitus caused by cell-mediated autoimmune destruction of pancreatic beta cells.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Diabetes, Type I</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>risk_factors</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Type I diabetes mellitus</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10045228</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diabetes Mellitus (Type I)</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diabetes, Type I</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IDDM</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Immune Mediated Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Insulin Dependent Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>AQS</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Insulin Dependent Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Insulin Dependent Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Insulin Dependent Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Juvenile Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Juvenile Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 1 Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 1 Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 1 Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>Cellosaurus</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 1 Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type 1 Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type I Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>AQS</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type I Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type I Diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type I Diabetes Mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type I Diabetes mellitus</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>SeroNet</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Type I diabetes</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2987">
+        <obo:IAO_0000115>Watery bowel movements.</obo:IAO_0000115>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:NCIT_A48 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A48 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A48 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:NCIT_NHC0>C2987</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P107>Diarrhea</obo:NCIT_P107>
+        <obo:NCIT_P108>Diarrhea</obo:NCIT_P108>
+        <obo:NCIT_P207>C3554472</obo:NCIT_P207>
+        <obo:NCIT_P317>Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTCAE</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P325>A disorder characterized by frequent and watery bowel movements.</obo:NCIT_P325>
+        <obo:NCIT_P325>Frequent and watery bowel movements.</obo:NCIT_P325>
+        <obo:NCIT_P325>Frequent, watery bowel movements.</obo:NCIT_P325>
+        <obo:NCIT_P325>Passage of greater than or equal to 3 loose or liquid stools per day (or more frequent passage than is normal for the individual)</obo:NCIT_P325>
+        <obo:NCIT_P325>Watery bowel movements.</obo:NCIT_P325>
+        <obo:NCIT_P366>Diarrhea</obo:NCIT_P366>
+        <obo:NCIT_P375>Diarrhea</obo:NCIT_P375>
+        <oboInOwl:hasDbXref>IMDRF:E1008</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Diarrhea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diarrheal Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Frequent Stools</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Loose Stools</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diarrhea</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C2987</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118168"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178718"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179026"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191200"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191385"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191398"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191670"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54450"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62596"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96388"/>
+        <rdfs:label>Diarrhea</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Watery bowel movements.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+        <obo:NCIT_P381>NICHD</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A disorder characterized by frequent and watery bowel movements.</owl:annotatedTarget>
+        <obo:NCIT_P378>CTCAE</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Frequent and watery bowel movements.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Frequent, watery bowel movements.</owl:annotatedTarget>
+        <obo:NCIT_P378>FDA</obo:NCIT_P378>
+        <obo:NCIT_P381>CDRH</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Passage of greater than or equal to 3 loose or liquid stools per day (or more frequent passage than is normal for the individual)</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
+        <obo:NCIT_P381>SARS2</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Watery bowel movements.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10012727</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P385>VAR</obo:NCIT_P385>
+        <obo:NCIT_P386>SARS2</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CTCAE</obo:NCIT_P384>
+        <obo:NCIT_P385>E10572</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P385>1811</obo:NCIT_P385>
+        <obo:NCIT_P386>CDRH</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>SeroNet</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diarrheal Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Frequent Stools</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Loose Stools</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2987"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>diarrhea</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000306496</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C3138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3138">
+        <obo:IAO_0000115>A spectrum of small and large bowel inflammatory diseases of unknown etiology. It includes Crohn&apos;s disease, ulcerative colitis, and colitis of indeterminate type.</obo:IAO_0000115>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16457"/>
+        <obo:NCIT_NHC0>C3138</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Inflammatory Bowel Disease</obo:NCIT_P108>
+        <obo:NCIT_P207>C4227559</obo:NCIT_P207>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P325>A general term that refers to the inflammation of the colon and rectum. Inflammatory bowel disease includes ulcerative colitis and Crohn&apos;s disease.</obo:NCIT_P325>
+        <obo:NCIT_P325>Chronic inflammatory process affecting the gastrointestinal tract; primarily ulcerative colitis and Crohn&apos;s disease.</obo:NCIT_P325>
+        <obo:NCIT_P366>Inflammatory_Bowel_Disease</obo:NCIT_P366>
+        <obo:NCIT_P375>Inflammatory Bowel Disease</obo:NCIT_P375>
+        <obo:NCIT_P375>Inflammatory bowel disease</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Autoimmune Bowel Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IBD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inflammatory Bowel Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inflammatory bowel disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C3138</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186315"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Inflammatory Bowel Disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A spectrum of small and large bowel inflammatory diseases of unknown etiology. It includes Crohn&apos;s disease, ulcerative colitis, and colitis of indeterminate type.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A general term that refers to the inflammation of the colon and rectum. Inflammatory bowel disease includes ulcerative colitis and Crohn&apos;s disease.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Chronic inflammatory process affecting the gastrointestinal tract; primarily ulcerative colitis and Crohn&apos;s disease.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Inflammatory Bowel Disease</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>comorbidities</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Inflammatory bowel disease</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10021972</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Autoimmune Bowel Disorder</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IBD</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Inflammatory Bowel Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Inflammatory Bowel Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Inflammatory Bowel Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Inflammatory Bowel Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Inflammatory Bowel Disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>SeroNet</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>inflammatory bowel disease</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000045737</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C3362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3362">
+        <obo:IAO_0000115>A major psychotic disorder characterized by abnormalities in the perception or expression of reality. It affects the cognitive and psychomotor functions. Common clinical signs and symptoms include delusions, hallucinations, disorganized thinking, and retreat from reality.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C3362</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:NCIT_P108>Schizophrenia</obo:NCIT_P108>
+        <obo:NCIT_P207>C3553161</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P322>mCode</obo:NCIT_P322>
+        <obo:NCIT_P325>A group of severe mental disorders in which a person has trouble telling the difference between real and unreal experiences, thinking logically, having normal emotional responses to others, and behaving normally in social situations. Symptoms include seeing, hearing, feeling things that are not there, having false ideas about what is taking place or who one is, nonsense speech, unusual behavior, lack of emotion, and social withdrawal.</obo:NCIT_P325>
+        <obo:NCIT_P366>Schizophrenia</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Schizophrenia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Schizophrenia, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>schizophrenia</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C3362</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C193201"/>
+        <rdfs:label>Schizophrenia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A major psychotic disorder characterized by abnormalities in the perception or expression of reality. It affects the cognitive and psychomotor functions. Common clinical signs and symptoms include delusions, hallucinations, disorganized thinking, and retreat from reality.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A group of severe mental disorders in which a person has trouble telling the difference between real and unreal experiences, thinking logically, having normal emotional responses to others, and behaving normally in social situations. Symptoms include seeing, hearing, feeling things that are not there, having false ideas about what is taking place or who one is, nonsense speech, unusual behavior, lack of emotion, and social withdrawal.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Schizophrenia</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Schizophrenia</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>Cellosaurus</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Schizophrenia</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Schizophrenia, unspecified</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>mCode</obo:NCIT_P384>
+        <obo:NCIT_P385>F20.9</obo:NCIT_P385>
+        <obo:NCIT_P386>ICD-10 CM</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>schizophrenia</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000450117</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C3445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3445">
+        <obo:IAO_0000115>A reduction in total body weight.</obo:IAO_0000115>
+        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43283"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:NCIT_A40 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A40 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:NCIT_NHC0>C3445</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Weight Loss</obo:NCIT_P108>
+        <obo:NCIT_P207>C1262477</obo:NCIT_P207>
+        <obo:NCIT_P322>DIPG/DMG</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A finding characterized by a decrease in overall body weight; for pediatrics, less than the baseline growth curve.</obo:NCIT_P325>
+        <obo:NCIT_P325>A reduction in total body weight.</obo:NCIT_P325>
+        <obo:NCIT_P366>Weight_Loss</obo:NCIT_P366>
+        <obo:NCIT_P375>Weight Loss</obo:NCIT_P375>
+        <obo:NCIT_P375>Weight loss</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>WEIGHT_LOSS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Weight Decrease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Weight Loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Weight loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C3445</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C183064"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186317"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C186342"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Weight Loss</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A reduction in total body weight.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A finding characterized by a decrease in overall body weight; for pediatrics, less than the baseline growth curve.</owl:annotatedTarget>
+        <obo:NCIT_P378>CTCAE</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A reduction in total body weight.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Weight Loss</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>ann_arbor_b_symptoms_described</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Weight loss</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10047900</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>WEIGHT_LOSS</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>PCDC</obo:NCIT_P384>
+        <obo:NCIT_P386>HL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weight Decrease</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weight Loss</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weight Loss</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weight Loss</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weight Loss</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weight loss</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CTCAE</obo:NCIT_P384>
+        <obo:NCIT_P385>E12228</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3445"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weight loss</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>DIPG/DMG</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C357">
+        <obo:IAO_0000115>A synthetic or semi-synthetic beta-lactam antibiotic derived from Acremonium (Cephalosporium) fungi with bactericidal activity. Cephalosporin antibiotics bind to and inactivate penicillin-binding proteins (PBPs) located on the inner membrane of the bacterial cell wall. Inactivation of PBPs interferes with the cross-linkage of peptidoglycan chains necessary for bacterial cell wall strength and rigidity. This interrupts bacterial cell wall synthesis and results in the weakening of the bacterial cell wall, eventually causing cell lysis.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C357</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <obo:NCIT_P108>Cephalosporin Antibiotic</obo:NCIT_P108>
+        <obo:NCIT_P208>CL557638</obo:NCIT_P208>
+        <obo:NCIT_P325>A drug used to treat bacterial infections. It belongs to the family of drugs called antibiotics.</obo:NCIT_P325>
+        <obo:NCIT_P366>Cephalosporin_Antibiotic</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:23066</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>Cephalosporin Antibiotic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cephalosporins</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cephalosporin</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C357</oboInOwl:id>
+        <rdfs:label>Cephalosporin Antibiotic</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C357"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A synthetic or semi-synthetic beta-lactam antibiotic derived from Acremonium (Cephalosporium) fungi with bactericidal activity. Cephalosporin antibiotics bind to and inactivate penicillin-binding proteins (PBPs) located on the inner membrane of the bacterial cell wall. Inactivation of PBPs interferes with the cross-linkage of peptidoglycan chains necessary for bacterial cell wall strength and rigidity. This interrupts bacterial cell wall synthesis and results in the weakening of the bacterial cell wall, eventually causing cell lysis.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C357"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A drug used to treat bacterial infections. It belongs to the family of drugs called antibiotics.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C357"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cephalosporin Antibiotic</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C357"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cephalosporins</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C357"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>cephalosporin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046676</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C86665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86665">
+        <obo:IAO_0000115>A species of obligately anaerobic, Gram-negative, rod shaped bacteria assigned to the phylum Bacteroidetes. This species is nonmotile, non-spore forming, produces a black pigment, beta-N-acetyl-glucosaminidase positive, but xylose arabinose cellobiose, rhamnose, salicin, sucrose, lactose, indole, esculin hydrolysis, alpha-fucosidase, beta-glucosidase and glycine aminopeptidase negative. P. corporis is typically isolated from nonoral sites though a few strains have been isolated from dental root canal infections.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C86665</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Bacterium</obo:NCIT_P106>
+        <obo:NCIT_P108>Prevotella corporis</obo:NCIT_P108>
+        <obo:NCIT_P207>C0314953</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any bacterial organism that can be assigned to the species Prevotella corporis.</obo:NCIT_P325>
+        <obo:NCIT_P331>28128</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>PREVOTELLA CORPORIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prevotella corporis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C86665</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85491"/>
+        <rdfs:label>Prevotella corporis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C86665"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A species of obligately anaerobic, Gram-negative, rod shaped bacteria assigned to the phylum Bacteroidetes. This species is nonmotile, non-spore forming, produces a black pigment, beta-N-acetyl-glucosaminidase positive, but xylose arabinose cellobiose, rhamnose, salicin, sucrose, lactose, indole, esculin hydrolysis, alpha-fucosidase, beta-glucosidase and glycine aminopeptidase negative. P. corporis is typically isolated from nonoral sites though a few strains have been isolated from dental root canal infections.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C86665"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Any bacterial organism that can be assigned to the species Prevotella corporis.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C86665"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PREVOTELLA CORPORIS</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C86665"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prevotella corporis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C89715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C89715">
+        <obo:IAO_0000115>A common, severe type of vascular headache often associated with increased sympathetic activity, resulting in nausea, vomiting, and light sensitivity.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C89715</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Migraine</obo:NCIT_P108>
+        <obo:NCIT_P207>C3551790</obo:NCIT_P207>
+        <obo:NCIT_P322>Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A headache disorder characterized by recurrent episodes of moderate to severe pulsating pain, and may be associated with nausea, vomiting, photophobia , phonophobia, and worsening with exertion.</obo:NCIT_P325>
+        <obo:NCIT_P375>Migraine</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Migraine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Migraine Headache</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C89715</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189762"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Migraine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A common, severe type of vascular headache often associated with increased sympathetic activity, resulting in nausea, vomiting, and light sensitivity.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A headache disorder characterized by recurrent episodes of moderate to severe pulsating pain, and may be associated with nausea, vomiting, photophobia , phonophobia, and worsening with exertion.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Migraine</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>LLT</obo:NCIT_P394>
+        <obo:NCIT_P395>10027599</obo:NCIT_P395>
+        <obo:NCIT_P396>MedDRA</obo:NCIT_P396>
+        <obo:NCIT_P397>18.1</obo:NCIT_P397>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Migraine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>Cellosaurus</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Migraine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Migraine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Migraine Headache</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Migraine Headache</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C93019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93019">
+        <obo:IAO_0000115>The collection of microorganisms existing in the intestines of an organism.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C93019</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organism</obo:NCIT_P106>
+        <obo:NCIT_P107>Intestinal Flora</obo:NCIT_P107>
+        <obo:NCIT_P108>Intestinal Flora</obo:NCIT_P108>
+        <obo:NCIT_P207>C2985398</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>Bacteria and other organisms that live inside the intestines. They help digest food. Vitamins such as biotin and vitamin K are made by gut flora.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Gut Flora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gut Microbiome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gut Microbiota</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gut Microflora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intestinal Flora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intestinal Microbiome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intestinal Microbiota</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intestinal Microflora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gut flora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gut microflora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intestinal flora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intestinal microflora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>microflora</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C93019</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <rdfs:label>Intestinal Flora</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The collection of microorganisms existing in the intestines of an organism.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Bacteria and other organisms that live inside the intestines. They help digest food. Vitamins such as biotin and vitamin K are made by gut flora.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gut Flora</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gut Microbiome</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gut Microbiota</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gut Microflora</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intestinal Flora</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intestinal Flora</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intestinal Microbiome</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intestinal Microbiota</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intestinal Microflora</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>gut flora</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000670138</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>gut microflora</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000670139</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>intestinal flora</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000661952</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>intestinal microflora</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000670140</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>microflora</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000662004</obo:NCIT_P385>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

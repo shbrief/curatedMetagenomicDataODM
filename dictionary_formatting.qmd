@@ -21,6 +21,12 @@ knitr::opts_chunk$set(comment = "#>",
                       eval = FALSE)
 ```
 
+```{r packages}
+library(readr)
+library(dplyr)
+# library(stringr)
+```
+
 ```{r}
 #dd <- readr::read_csv("~/OmicsMLRepo/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
 dd <- readr::read_csv("~/Desktop/Work/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
@@ -194,8 +200,157 @@ robot merge \
     --output dictionaries_owl/cmd_${attrName}_enums.owl
 ```
 
+## biomarker
+```{r}
+attrName <- "biomarker"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
 
+## Split terms into respective ontologies
+prefs <- str_extract(attrVals, "^.+(?=:)")
+groups <- split(attrVals, prefs)
 
+## Create and save manual template for SNOMED term
+groups$SNOMED <- NULL
+snomed_template <- data.frame(ID = c("ID",
+                                     "SNOMED:165879008",
+                                     "SNOMED:117907009",
+                                     "SNOMED:14089001",
+                                     "SNOMED:767002"),
+                              Label = c("A rdfs:label",
+                                        "Autoantibody titer positive (finding)",
+                                        "Measurement of glutamate decarboxylase65 antibody (procedure)",
+                                        "Red blood cell count (procedure)",
+                                        "White blood cell count (procedure)"))
+tpath <- paste0("dictionaries_templates/", attrName, "_SNOMED.csv")
+write.csv(snomed_template, tpath, row.names = FALSE)
+
+## Modify EFO terms to work with robot
+groups$EFO <- str_replace(groups$EFO, "EFO:", "http://purl.obolibrary.org/obo/EFO_")
+
+## Save the lists of static ontology terms
+saveStatic <- function(attr, name, terms) {
+    fpath <- paste0("dictionaries_terms/", attr, "_", name,".txt")
+    writeLines(terms, fpath)
+}
+
+mapply(function(n, t) saveStatic(attrName, n, t),
+       names(groups),
+       groups)
+```
+
+```{bash}
+attrName="biomarker_NCIT"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+    
+attrName="biomarker_SNOMED"
+robot template \
+    --template dictionaries_templates/${attrName}.csv \
+    --prefix "SNOMED: http://snomed.info/id/" \
+    --output dictionaries_owl/cmd_${attrName}.owl
+    
+attrName="biomarker_EFO"
+robot extract --method subset \
+    --input ontologies/efo.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+    
+attrName="biomarker_OMIT"
+robot extract --method subset \
+    --input ontologies/omit.owl \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+
+attrName="biomarker"
+robot merge \
+    --input dictionaries_owl/cmd_biomarker_EFO.owl \
+    --input dictionaries_owl/cmd_biomarker_NCIT.owl \
+    --input dictionaries_owl/cmd_biomarker_OMIT.owl \
+    --input dictionaries_owl/cmd_biomarker_SNOMED.owl \
+    --output dictionaries_owl/cmd_${attrName}_enums.owl
+```
+
+## target_condition
+```{r}
+attrName <- "target_condition"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Split terms into respective ontologies
+prefs <- str_extract(attrVals, "^.+(?=:)")
+groups <- split(attrVals, prefs)
+
+## Add back in SNOMED term without prefix
+groups <- c(groups, list(SNOMED=c("SNOMED:713351000")))
+
+## Create and save manual template for SNOMED term
+snomed_template <- data.frame(ID = c("ID", "SNOMED:713351000"),
+                              Label = c("A rdfs:label", "Multidrug-resistant bacteria (organism)"),
+                              Definition = c("A IAO:0000115", "Multi Drug Resistance (MDR) is defined as non-susceptibility to at least one agent in three or more epidemiologically significant antimicrobial categories. Non-susceptibility refers to either a resistant, intermediate or non-susceptible result obtained from in vitro antimicrobial susceptibility testing. (DOI: 10.1111/j.1469-0691.2011.03570.x)"))
+tpath <- paste0("dictionaries_terms/", attrName, "_SNOMED.csv")
+write.csv(snomed_template, tpath, row.names = FALSE)
+
+## Modify EFO terms to work with robot
+groups$EFO <- str_replace(groups$EFO, "EFO:", "http://purl.obolibrary.org/obo/EFO_")
+
+## Save the lists of static ontology terms
+saveStatic <- function(attr, name, terms) {
+    fpath <- paste0("dictionaries_terms/", attr, "_", name,".txt")
+    writeLines(terms, fpath)
+}
+
+mapply(function(n, t) saveStatic(attrName, n, t),
+       names(groups),
+       groups)
+```
+
+```{bash}
+attrName="target_condition_EFO"
+robot extract --method subset \
+    --input ontologies/efo.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+    
+attrName="target_condition_NCIT"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+    
+attrName="target_condition_OHMI"
+robot extract --method subset \
+    --input ontologies/ohmi.owl \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+    
+attrName="target_condition_MONDO"
+robot extract --method subset \
+    --input ontologies/mondo.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+
+attrName="target_condition_SNOMED"
+robot template \
+    --template dictionaries_templates/${attrName}.csv \
+    --prefix "SNOMED: http://snomed.info/id/" \
+    --output dictionaries_owl/cmd_${attrName}.owl
+
+attrName="target_condition"
+robot merge \
+    --input dictionaries_owl/cmd_${attrName}_NCIT.owl \
+    --input dictionaries_owl/cmd_${attrName}_OHMI.owl \
+    --input dictionaries_owl/cmd_${attrName}_MONDO.owl \
+    --input dictionaries_owl/cmd_${attrName}_SNOMED.owl \
+    --input dictionaries_owl/cmd_${attrName}_EFO.owl \
+    --output dictionaries_owl/cmd_${attrName}_enums.owl
+    ```
 
 # MRO
 Download `mro.owl` from https://obofoundry.org/.
@@ -435,6 +590,17 @@ writeLines(attrVals, fpath)
 ## dna_extraction_kit
 ```{r}
 attrName <- "dna_extraction_kit"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
+writeLines(attrVals, fpath)
+```
+
+```{r}
+attrName <- "sequencing_platform"
 attrVals <- dd %>% filter(col.name == attrName) %>%
     select(allowedvalues) %>% unlist %>%
     strsplit(., split = "\\|") %>% .[[1]] %>% c("label", .)
