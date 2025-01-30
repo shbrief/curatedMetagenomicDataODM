@@ -1,2 +1,0 @@
-http://purl.obolibrary.org/obo/EFO_0004465
-http://purl.obolibrary.org/obo/EFO_0004466

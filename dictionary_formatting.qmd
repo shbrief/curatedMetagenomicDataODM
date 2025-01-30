@@ -24,7 +24,7 @@ knitr::opts_chunk$set(comment = "#>",
 ```{r packages}
 library(readr)
 library(dplyr)
-# library(stringr)
+library(stringr)
 ```
 
 ```{r}
@@ -182,18 +182,32 @@ obo <- ontologyIndex::get_ontology("~/Projects/curatedMetagenomicDataODM/ontolog
 
 ```{bash}
 attrName="disease"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term "NCIT:C115935" \
+    --output dictionaries_owl/cmd_${attrName}_NCIT_healthy.owl
+
+attrName="disease"
 robot extract --method MIREOT \
     --input ontologies/ncit.obo \
     --branch-from-term "NCIT:C7057" \
+    --output dictionaries_owl/cmd_${attrName}_NCIT_disease.owl
+    
+attrName="disease"
+robot merge \
+    --input dictionaries_owl/cmd_disease_NCIT_healthy.owl \
+    --input dictionaries_owl/cmd_disease_NCIT_disease.owl \
     --output dictionaries_owl/cmd_${attrName}_NCIT_enums.owl
     
 ## Download `efo.obo` from http://www.ebi.ac.uk/efo/efo.obo
 ## wget http://www.ebi.ac.uk/efo/efo.obo in the `ontologies` directory
+attrName="disease"
 robot extract --method MIREOT \
     --input ontologies/efo.obo \
-    --branch-from-term "http://www.ebi.ac.uk/efo/EFO_0000408" \
+    --branch-from-term "http://purl.obolibrary.org/obo/EFO_0000408" \
     --output dictionaries_owl/cmd_${attrName}_EFO_enums.owl
 
+attrName="disease"
 robot merge \
     --input dictionaries_owl/cmd_disease_NCIT_enums.owl \
     --input dictionaries_owl/cmd_disease_EFO_enums.owl \
@@ -227,8 +241,9 @@ snomed_template <- data.frame(ID = c("ID",
 tpath <- paste0("dictionaries_templates/", attrName, "_SNOMED.csv")
 write.csv(snomed_template, tpath, row.names = FALSE)
 
-## Modify EFO terms to work with robot
-groups$EFO <- str_replace(groups$EFO, "EFO:", "http://purl.obolibrary.org/obo/EFO_")
+## Replace obsolete EFO terms with suggested OBA terms
+groups$OBA <- c("OBA:VT0000188", "OBA:VT0001560")
+groups$EFO <- NULL
 
 ## Save the lists of static ontology terms
 saveStatic <- function(attr, name, terms) {
@@ -254,9 +269,9 @@ robot template \
     --prefix "SNOMED: http://snomed.info/id/" \
     --output dictionaries_owl/cmd_${attrName}.owl
     
-attrName="biomarker_EFO"
+attrName="biomarker_OBA"
 robot extract --method subset \
-    --input ontologies/efo.obo \
+    --input ontologies/oba.owl \
     --term-file dictionaries_terms/${attrName}.txt \
     --output dictionaries_owl/cmd_${attrName}.owl
     
@@ -268,7 +283,7 @@ robot extract --method subset \
 
 attrName="biomarker"
 robot merge \
-    --input dictionaries_owl/cmd_biomarker_EFO.owl \
+    --input dictionaries_owl/cmd_biomarker_OBA.owl \
     --input dictionaries_owl/cmd_biomarker_NCIT.owl \
     --input dictionaries_owl/cmd_biomarker_OMIT.owl \
     --input dictionaries_owl/cmd_biomarker_SNOMED.owl \
@@ -599,6 +614,7 @@ fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
 writeLines(attrVals, fpath)
 ```
 
+## sequencing_platform
 ```{r}
 attrName <- "sequencing_platform"
 attrVals <- dd %>% filter(col.name == attrName) %>%
@@ -609,3 +625,24 @@ attrVals <- dd %>% filter(col.name == attrName) %>%
 fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
 writeLines(attrVals, fpath)
 ```
+
+## tumor_staging_tnm
+```{r}
+attrName <- "tumor_staging_tnm"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(allowedvalues)
+
+## Create list of all possible TNM values
+tnm_list <- list("T" = c("TX", "T0", "T1", "T2", "T3", "T4"),
+                 "N" = c("NX", "N0", "N1", "N2", "N3"),
+                 "M" = c("MX", "M0", "M1"))
+
+tnm_vals <- expand.grid(tnm_list)
+tnm_codes <- paste0(tnm_vals$T, tnm_vals$N, tnm_vals$M)
+tnm_codes <- c("label", tnm_codes, "Tis", "pTis")
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_owl/cmd_", attrName, ".csv")
+writeLines(tnm_codes, fpath)
+```
+

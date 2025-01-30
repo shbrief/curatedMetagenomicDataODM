@@ -45,6 +45,11 @@
         "description": "Dietary regime (partial match to SNOMED:182922004 or SNOMED:162536008)"
     },
     {
+        "name": "cMD disease",
+        "url": "https://storage.googleapis.com/odm_template/cmd_disease_enums.owl",
+        "description": "Reported disease/condition type(s) for a participant. 'Healthy' if disease(s)/condition(s) assessed under a given study is not detected"
+    },
+    {
         "name": "cMD disease_response_RECIST",
         "url": "https://storage.googleapis.com/odm_template/cmd_disease_response_recist.owl",
         "description": "Response Evaluation Criteria in Solid Tumors (RECIST, DICOM:112022)"
@@ -133,6 +138,11 @@
         "name": "cMD tumor_staging_ajcc",
         "url": "https://storage.googleapis.com/odm_template/cmd_tumor_staging_ajcc.csv",
         "description": "A system to describe the amount and spread of cancer in a patient's body"
+    },
+    {
+        "name": "cMD tumor_staging_tnm",
+        "url": "https://storage.googleapis.com/odm_template/cmd_tumor_staging_tnm.csv",
+        "description": "Tumor-node-metastasis (TNM) tumor staging system (tumor staging) (SNOMED:254293002).A system to describe the amount and spread of cancer in a patient's body"
     },
     {
         "name": "cMD zygosity",

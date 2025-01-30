@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.ebi.ac.uk/efo/efo.owl#"
-     xml:base="http://www.ebi.ac.uk/efo/efo.owl"
-     xmlns:efo="http://www.ebi.ac.uk/efo/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oba.owl#"
+     xml:base="http://purl.obolibrary.org/obo/oba.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://www.ebi.ac.uk/efo/efo.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba.owl"/>
     
 
 
@@ -27,21 +26,9 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <rdfs:label>definition</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
-        <rdfs:label>term replaced by</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -196,24 +183,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/gwas_trait -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/gwas_trait"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/obsoleted_in_version -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/obsoleted_in_version"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/reason_for_obsolescence -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/reason_for_obsolescence"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
@@ -254,44 +223,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EFO_0004465 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EFO_0004465">
-        <obo:IAO_0000115>An fasting blood glucose measurement is a measurement of glucose in the blood of a patient at some defined time point after eating.</obo:IAO_0000115>
-        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000188"/>
-        <obo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:gwas_trait>
-        <efo:obsoleted_in_version>3.74.0</efo:obsoleted_in_version>
-        <efo:reason_for_obsolescence>Project to replace EFO measurement branch with enriched OBA branch. Please use: OBA:VT0000188</efo:reason_for_obsolescence>
-        <oboInOwl:hasDbXref>SNOMEDCT:271062006</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>fasting blood glucose level</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>fasting glucose-related traits</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>fasting plasma glucose</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>EFO:0004465</oboInOwl:id>
-        <rdfs:label>obsolete_fasting blood glucose measurement</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EFO_0004466 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EFO_0004466">
-        <obo:IAO_0000115>A fasting blood insulin measurement is a measurement of insulin in the blood at a predetermined point after the patient has fasted</obo:IAO_0000115>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001560"/>
-        <obo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:gwas_trait>
-        <efo:obsoleted_in_version>3.74.0</efo:obsoleted_in_version>
-        <efo:reason_for_obsolescence>Project to replace EFO measurement branch with enriched OBA branch. Please use: OBA:VT0001560</efo:reason_for_obsolescence>
-        <oboInOwl:hasExactSynonym>fasting blood insulin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>fasting blood insulin level</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>fasting insulin-related traits</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>EFO:0004466</oboInOwl:id>
-        <rdfs:label>obsolete_fasting blood insulin measurement</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
     
 
 
@@ -3269,6 +3200,50 @@
         <owl:annotatedTarget>Total Glucagon-Like Peptide-1</owl:annotatedTarget>
         <obo:NCIT_P383>SY</obo:NCIT_P383>
         <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000188">
+        <obo:IAO_0000115>The amount of a glucose when measured in blood.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>blood glucose amount</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood glucose amount</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000188"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The amount of a glucose when measured in blood.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute_location</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000188"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>blood glucose amount</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute_location</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0001560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001560">
+        <obo:IAO_0000115>The amount of a insulin (human) when measured in blood.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>blood insulin (human) amount</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood insulin amount</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001560"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The amount of a insulin (human) when measured in blood.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute_location</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001560"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>blood insulin (human) amount</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute_location</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
