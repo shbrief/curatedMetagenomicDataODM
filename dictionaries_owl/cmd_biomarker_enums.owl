@@ -226,6 +226,38 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/117907009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/117907009">
+        <rdfs:label>Measurement of glutamate decarboxylase65 antibody (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/14089001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/14089001">
+        <rdfs:label>Red blood cell count (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/165879008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/165879008">
+        <rdfs:label>Autoantibody titer positive (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/767002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/767002">
+        <rdfs:label>White blood cell count (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C105585 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C105585">
@@ -3252,38 +3284,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0007621">
         <rdfs:label>Hemoglobinometry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://snomed.info/id/117907009 -->
-
-    <owl:Class rdf:about="http://snomed.info/id/117907009">
-        <rdfs:label>Measurement of glutamate decarboxylase65 antibody (procedure)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://snomed.info/id/14089001 -->
-
-    <owl:Class rdf:about="http://snomed.info/id/14089001">
-        <rdfs:label>Red blood cell count (procedure)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://snomed.info/id/165879008 -->
-
-    <owl:Class rdf:about="http://snomed.info/id/165879008">
-        <rdfs:label>Autoantibody titer positive (finding)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://snomed.info/id/767002 -->
-
-    <owl:Class rdf:about="http://snomed.info/id/767002">
-        <rdfs:label>White blood cell count (procedure)</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

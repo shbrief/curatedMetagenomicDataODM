@@ -203,8 +203,8 @@ robot merge \
 ## wget http://www.ebi.ac.uk/efo/efo.obo in the `ontologies` directory
 attrName="disease"
 robot extract --method MIREOT \
-    --input ontologies/efo.obo \
-    --branch-from-term "http://purl.obolibrary.org/obo/EFO_0000408" \
+    --input ontologies/efo.owl \
+    --branch-from-term "http://www.ebi.ac.uk/efo/EFO_0000408" \
     --output dictionaries_owl/cmd_${attrName}_EFO_enums.owl
 
 attrName="disease"
@@ -266,7 +266,7 @@ robot extract --method subset \
 attrName="biomarker_SNOMED"
 robot template \
     --template dictionaries_templates/${attrName}.csv \
-    --prefix "SNOMED: http://snomed.info/id/" \
+    --prefix "SNOMED: http://purl.bioontology.org/ontology/SNOMEDCT/" \
     --output dictionaries_owl/cmd_${attrName}.owl
     
 attrName="biomarker_OBA"
@@ -313,7 +313,7 @@ tpath <- paste0("dictionaries_terms/", attrName, "_SNOMED.csv")
 write.csv(snomed_template, tpath, row.names = FALSE)
 
 ## Modify EFO terms to work with robot
-groups$EFO <- str_replace(groups$EFO, "EFO:", "http://purl.obolibrary.org/obo/EFO_")
+groups$EFO <- str_replace(groups$EFO, "EFO:", "http://www.ebi.ac.uk/efo/EFO_")
 
 ## Save the lists of static ontology terms
 saveStatic <- function(attr, name, terms) {
@@ -329,10 +329,10 @@ mapply(function(n, t) saveStatic(attrName, n, t),
 ```{bash}
 attrName="target_condition_EFO"
 robot extract --method subset \
-    --input ontologies/efo.obo \
+    --input ontologies/efo.owl \
     --term-file dictionaries_terms/${attrName}.txt \
     --output dictionaries_owl/cmd_${attrName}.owl
-    
+
 attrName="target_condition_NCIT"
 robot extract --method subset \
     --input ontologies/ncit.obo \
@@ -354,9 +354,9 @@ robot extract --method subset \
 attrName="target_condition_SNOMED"
 robot template \
     --template dictionaries_templates/${attrName}.csv \
-    --prefix "SNOMED: http://snomed.info/id/" \
+    --prefix "SNOMED: http://purl.bioontology.org/ontology/SNOMEDCT/" \
     --output dictionaries_owl/cmd_${attrName}.owl
-
+    
 attrName="target_condition"
 robot merge \
     --input dictionaries_owl/cmd_${attrName}_NCIT.owl \
@@ -365,7 +365,7 @@ robot merge \
     --input dictionaries_owl/cmd_${attrName}_SNOMED.owl \
     --input dictionaries_owl/cmd_${attrName}_EFO.owl \
     --output dictionaries_owl/cmd_${attrName}_enums.owl
-    ```
+```
 
 # MRO
 Download `mro.owl` from https://obofoundry.org/.

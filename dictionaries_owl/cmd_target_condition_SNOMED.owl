@@ -39,9 +39,9 @@
     
 
 
-    <!-- http://snomed.info/id/713351000 -->
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/713351000 -->
 
-    <Class rdf:about="http://snomed.info/id/713351000">
+    <Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/713351000">
         <obo:IAO_0000115>Multi Drug Resistance (MDR) is defined as non-susceptibility to at least one agent in three or more epidemiologically significant antimicrobial categories. Non-susceptibility refers to either a resistant, intermediate or non-susceptible result obtained from in vitro antimicrobial susceptibility testing. (DOI: 10.1111/j.1469-0691.2011.03570.x)</obo:IAO_0000115>
         <rdfs:label>Multidrug-resistant bacteria (organism)</rdfs:label>
     </Class>

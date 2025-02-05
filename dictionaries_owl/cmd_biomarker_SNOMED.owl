@@ -21,33 +21,33 @@
     
 
 
-    <!-- http://snomed.info/id/117907009 -->
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/117907009 -->
 
-    <Class rdf:about="http://snomed.info/id/117907009">
+    <Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/117907009">
         <rdfs:label>Measurement of glutamate decarboxylase65 antibody (procedure)</rdfs:label>
     </Class>
     
 
 
-    <!-- http://snomed.info/id/14089001 -->
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/14089001 -->
 
-    <Class rdf:about="http://snomed.info/id/14089001">
+    <Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/14089001">
         <rdfs:label>Red blood cell count (procedure)</rdfs:label>
     </Class>
     
 
 
-    <!-- http://snomed.info/id/165879008 -->
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/165879008 -->
 
-    <Class rdf:about="http://snomed.info/id/165879008">
+    <Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/165879008">
         <rdfs:label>Autoantibody titer positive (finding)</rdfs:label>
     </Class>
     
 
 
-    <!-- http://snomed.info/id/767002 -->
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/767002 -->
 
-    <Class rdf:about="http://snomed.info/id/767002">
+    <Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/767002">
         <rdfs:label>White blood cell count (procedure)</rdfs:label>
     </Class>
 </rdf:RDF>
