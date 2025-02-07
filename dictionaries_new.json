@@ -1,12 +1,7 @@
 [
     {
-        "name": "cMD target_condition",
-        "url": "https://storage.googleapis.com/odm_template/cmd_target_condition_enums.owl",
-        "description": "Main phenotype(s)/condition(s) of interest for a given study"
-    },
-    {
-        "name": "cMD biomarker",
-        "url": "https://storage.googleapis.com/odm_template/cmd_biomarker_enums.owl",
-        "description": "A measurable and quantifiable characteristic or substance that serves as an indicator of a biological state, condition, or process within an organism."
+        "name": "cMD treatment_enums",
+        "url": "https://storage.googleapis.com/odm_template/cmd_treatment_enums.owl",
+        "description": "Medication(s)/treatment(s) applied to the subject"
     }
 ]

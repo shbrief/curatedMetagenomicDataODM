@@ -66,7 +66,7 @@
     },
     {
         "name": "cMD feces_phenotype_metric",
-        "url": "https://storage.googleapis.com/odm_template/cmd_feces_phenotype_metric.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_feces_phenotype_enums.csv",
         "description": "Measurements collected from stool sample, including observation, chemical test, and diagnostic procedure"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
         "name": "cMD probing_pocket_depth",
-        "url": "https://storage.googleapis.com/odm_template/cmd_probing_pocket_depth.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_probing_pocket_depth.owl",
         "description": "Depth of periodontal pocket measured at the different tooth's regions"
     },
     {

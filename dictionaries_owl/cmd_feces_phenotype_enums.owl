@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A13 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A13"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P385 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P385"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/443172007 -->
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/443172007">
+        <rdfs:label>Bristol stool form score (observable entity)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C191036 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C191036">
+        <obo:IAO_0000115>A standardized clinical tool, published in 1980 by Harvey et al. as a simplified version of the Crohn Disease Activity Index (CDAI), that assesses and scores five patient parameters (well-being, abdominal pain, number of liquid or soft stools, abdominal mass, and complications) to stratify Crohn&apos;s disease severity.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C191036</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Harvey-Bradshaw Index Clinical Classification</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1799519</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Harvey-Bradshaw Index (HBI) (Harvey RF, Bradshaw JM. A simple index of Crohn&apos;s-disease activity. Lancet. 1980 Mar 8;1(8167):514). CDISC believes this instrument to be in the public domain, but you should perform your own assessment.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>HBI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HBI01</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Harvey-Bradshaw Index Clinical Classification</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C191036</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118970"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118971"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120166"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Harvey-Bradshaw Index Clinical Classification</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191036"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A standardized clinical tool, published in 1980 by Harvey et al. as a simplified version of the Crohn Disease Activity Index (CDAI), that assesses and scores five patient parameters (well-being, abdominal pain, number of liquid or soft stools, abdominal mass, and complications) to stratify Crohn&apos;s disease severity.</annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191036"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>Harvey-Bradshaw Index (HBI) (Harvey RF, Bradshaw JM. A simple index of Crohn&apos;s-disease activity. Lancet. 1980 Mar 8;1(8167):514). CDISC believes this instrument to be in the public domain, but you should perform your own assessment.</annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191036"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>HBI</annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191036"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>HBI</annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191036"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>HBI01</annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C191036"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Harvey-Bradshaw Index Clinical Classification</annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C82005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C82005">
+        <obo:IAO_0000115>The determination of the amount of calprotectin present in a sample.</obo:IAO_0000115>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C24761"/>
+        <obo:NCIT_A13 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C24762"/>
+        <obo:NCIT_NHC0>C82005</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Calprotectin Measurement</obo:NCIT_P108>
+        <obo:NCIT_P207>C2825883</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A measurement of the calprotectin in a biological specimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Calprotectin_Measurement</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>CALPRO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Calprotectin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Calprotectin Measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C82005</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65047"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67154"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
+        <rdfs:label>Calprotectin Measurement</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82005"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>CALPRO</annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTESTCD</obo:NCIT_P385>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82005"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Calprotectin</annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-LBTEST</obo:NCIT_P385>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82005"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Calprotectin</annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82005"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Calprotectin Measurement</annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82005"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The determination of the amount of calprotectin present in a sample.</annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82005"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <annotatedTarget>A measurement of the calprotectin in a biological specimen.</annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
