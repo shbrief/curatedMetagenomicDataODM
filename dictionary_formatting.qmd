@@ -261,6 +261,96 @@ robot merge \
     --output dictionaries_owl/cmd_${attrName}_enums.owl
 ```
 
+## disease_details
+```{r}
+attrName <- "disease_details"
+attrVals <- dd %>% filter(ColName == attrName) %>%
+    select(Ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Split terms into respective ontologies
+prefs <- str_extract(attrVals, "^.+(?=:)")
+groups <- split(attrVals, prefs)
+
+## Add "Healthy" term to NCIT
+groups$NCIT <- c(groups$NCIT, "NCIT:C115935")
+
+## Create and save manual template for SNOMED terms
+groups$SNOMED <- NULL
+snomed_template <- data.frame(ID = c("ID",
+                                     "SNOMED:86005002",
+                                     "SNOMED:255217005",
+                                     "SNOMED:161615003",
+                                     "SNOMED:713351000",
+                                     "SNOMED:263853000"),
+                              Label = c("A rdfs:label",
+                                        "Advanced (qualifier value)",
+                                        "First episode (qualifier value)",
+                                        "History of surgery (situation)",
+                                        "Multidrug-resistant bacteria (organism)",
+                                        "Recurrent episode (qualifier value)"))
+tpath <- paste0("dictionaries_templates/", attrName, "_SNOMED.csv")
+write.csv(snomed_template, tpath, row.names = FALSE)
+
+## Create and save manual template for NCBITaxon terms
+groups$NCBITaxon <- NULL
+ncbitaxon_template <- data.frame(ID = c("ID",
+                                        "NCBITaxon:6285",
+                                        "NCBITaxon:5833",
+                                        "NCBITaxon:165179"),
+                                 Label = c("A rdfs:label",
+                                           "Onchocerca microfilariae",
+                                           "Plasmodium falciparum",
+                                           "Segatella copri"))
+tpath <- paste0("dictionaries_templates/", attrName, "_NCBITaxon.csv")
+write.csv(ncbitaxon_template, tpath, row.names = FALSE)
+
+## Save the lists of static ontology terms
+saveStatic <- function(attr, name, terms) {
+    fpath <- paste0("dictionaries_terms/", attr, "_", name,".txt")
+    writeLines(terms, fpath)
+}
+
+mapply(function(n, t) saveStatic(attrName, n, t),
+       names(groups),
+       groups)
+```
+
+```{bash}
+attrName="disease_details"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}_NCIT.txt \
+    --output dictionaries_owl/cmd_${attrName}_NCIT.owl
+    
+attrName="disease_details"
+robot template \
+    --template dictionaries_templates/${attrName}_SNOMED.csv \
+    --prefix "SNOMED: http://purl.bioontology.org/ontology/SNOMEDCT/" \
+    --output dictionaries_owl/cmd_${attrName}_SNOMED.owl
+    
+attrName="disease_details"
+robot template \
+    --template dictionaries_templates/${attrName}_NCBITaxon.csv \
+    --prefix "NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_" \
+    --output dictionaries_owl/cmd_${attrName}_NCBITaxon.owl
+    
+attrName="disease_details"
+robot extract --method subset \
+    --input ontologies/omit.owl \
+    --term-file dictionaries_terms/${attrName}_OMIT.txt \
+    --output dictionaries_owl/cmd_${attrName}_OMIT.owl
+
+attrName="disease_details"
+robot merge \
+    --input dictionaries_owl/cmd_${attrName}_NCBITaxon.owl \
+    --input dictionaries_owl/cmd_${attrName}_NCIT.owl \
+    --input dictionaries_owl/cmd_${attrName}_OMIT.owl \
+    --input dictionaries_owl/cmd_${attrName}_SNOMED.owl \
+    --output dictionaries_owl/cmd_${attrName}_enums.owl
+```
+
 ## biomarker
 ```{r}
 attrName <- "biomarker"
@@ -453,6 +543,37 @@ robot extract --method subset \
     --output dictionaries_owl/cmd_${attrName}.owl
 ```
 
+## ancestry_details
+```{r}
+attrName <- "ancestry_details"
+attrVals <- dd %>% filter(ColName == attrName) %>%
+    select(Ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Split terms into respective ontologies
+prefs <- str_extract(attrVals, "^.+(?=:)")
+groups <- split(attrVals, prefs)
+
+## Save the lists of static ontology terms
+saveStatic <- function(attr, name, terms) {
+    fpath <- paste0("dictionaries_terms/", attr, "_", name,".txt")
+    writeLines(terms, fpath)
+}
+
+mapply(function(n, t) saveStatic(attrName, n, t),
+       names(groups),
+       groups)
+```
+
+```{bash}
+attrName="ancestry_details"
+robot extract --method subset \
+    --input ontologies/hancestro.owl \
+    --term-file dictionaries_terms/${attrName}_HANCESTRO.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
 # UBERON
 Download `uberon.owl` from https://obofoundry.org/.
 
@@ -474,6 +595,37 @@ attrName="body_site"
 robot extract --method subset \
     --input ontologies/uberon.owl \
     --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+## body_site_details
+```{r}
+attrName <- "body_site_details"
+attrVals <- dd %>% filter(ColName == attrName) %>%
+    select(Ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Split terms into respective ontologies
+prefs <- str_extract(attrVals, "^.+(?=:)")
+groups <- split(attrVals, prefs)
+
+## Save the lists of static ontology terms
+saveStatic <- function(attr, name, terms) {
+    fpath <- paste0("dictionaries_terms/", attr, "_", name,".txt")
+    writeLines(terms, fpath)
+}
+
+mapply(function(n, t) saveStatic(attrName, n, t),
+       names(groups),
+       groups)
+```
+
+```{bash}
+attrName="body_site_details"
+robot extract --method subset \
+    --input ontologies/uberon.owl \
+    --term-file dictionaries_terms/${attrName}_UBERON.txt \
     --output dictionaries_owl/cmd_${attrName}.owl
 ```
 

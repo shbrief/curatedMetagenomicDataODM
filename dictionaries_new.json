@@ -1,7 +1,17 @@
 [
     {
-        "name": "cMD treatment_enums",
-        "url": "https://storage.googleapis.com/odm_template/cmd_treatment_enums.owl",
-        "description": "Medication(s)/treatment(s) applied to the subject"
+        "name": "cMD ancestry_details",
+        "url": "https://storage.googleapis.com/odm_template/cmd_ancestry_details.owl",
+        "description": "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data (descendants of `ancestry`)"
+    },
+    {
+        "name": "cMD body_site_details",
+        "url": "https://storage.googleapis.com/odm_template/cmd_body_site.owl",
+        "description": "Subject's bodysite the given sample was collected from"
+    },
+    {
+        "name": "cMD disease_details",
+        "url": "https://storage.googleapis.com/odm_template/cmd_disease_details_enums.owl",
+        "description": "Reported disease/condition type(s) for a participant. 'Healthy' if disease(s)/condition(s) assessed under a given study is not detected"
     }
 ]

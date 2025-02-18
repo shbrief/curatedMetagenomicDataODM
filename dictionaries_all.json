@@ -15,14 +15,24 @@
         "description": "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data (children of HANCESTRO:0004)"
     },
     {
+        "name": "cMD ancestry_details",
+        "url": "https://storage.googleapis.com/odm_template/cmd_ancestry_details.owl",
+        "description": "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data (descendants of `ancestry`)"
+    },
+    {
         "name": "cMD biomarker",
         "url": "https://storage.googleapis.com/odm_template/cmd_biomarker_enums.owl",
         "description": "A measurable and quantifiable characteristic or substance that serves as an indicator of a biological state, condition, or process within an organism."
     },
     {
-        "name": "cMD body_site",
+        "name": "cMD body_site_details",
         "url": "https://storage.googleapis.com/odm_template/cmd_body_site.owl",
         "description": "Subject's bodysite the given sample was collected from"
+    },
+    {
+        "name": "cMD body_site",
+        "url": "https://storage.googleapis.com/odm_template/cmd_body_site_details.owl",
+        "description": "Subject's body subsite the given sample was collected from. Should be more specific information than bodysite"
     },
     {
         "name": "cMD control",
@@ -47,6 +57,11 @@
     {
         "name": "cMD disease",
         "url": "https://storage.googleapis.com/odm_template/cmd_disease_enums.owl",
+        "description": "Reported disease/condition type(s) for a participant. 'Healthy' if disease(s)/condition(s) assessed under a given study is not detected"
+    },
+    {
+        "name": "cMD disease_details",
+        "url": "https://storage.googleapis.com/odm_template/cmd_disease_details_enums.owl",
         "description": "Reported disease/condition type(s) for a participant. 'Healthy' if disease(s)/condition(s) assessed under a given study is not detected"
     },
     {
