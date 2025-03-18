@@ -25,12 +25,12 @@
         "description": "A measurable and quantifiable characteristic or substance that serves as an indicator of a biological state, condition, or process within an organism."
     },
     {
-        "name": "cMD body_site_details",
+        "name": "cMD body_site",
         "url": "https://storage.googleapis.com/odm_template/cmd_body_site.owl",
         "description": "Subject's bodysite the given sample was collected from"
     },
     {
-        "name": "cMD body_site",
+        "name": "cMD body_site_details",
         "url": "https://storage.googleapis.com/odm_template/cmd_body_site_details.owl",
         "description": "Subject's body subsite the given sample was collected from. Should be more specific information than bodysite"
     },

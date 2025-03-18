@@ -580,8 +580,8 @@ Download `uberon.owl` from https://obofoundry.org/.
 ## body_site
 ```{r}
 attrName <- "body_site"
-attrVals <- dd %>% filter(col.name == attrName) %>%
-    select(ontology) %>% unlist %>%
+attrVals <- dd %>% filter(ColName == attrName) %>%
+    select(Ontology) %>% unlist %>%
     strsplit(., split = "\\|") %>% .[[1]]
 unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
 
@@ -606,26 +606,16 @@ attrVals <- dd %>% filter(ColName == attrName) %>%
     strsplit(., split = "\\|") %>% .[[1]]
 unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
 
-## Split terms into respective ontologies
-prefs <- str_extract(attrVals, "^.+(?=:)")
-groups <- split(attrVals, prefs)
-
-## Save the lists of static ontology terms
-saveStatic <- function(attr, name, terms) {
-    fpath <- paste0("dictionaries_terms/", attr, "_", name,".txt")
-    writeLines(terms, fpath)
-}
-
-mapply(function(n, t) saveStatic(attrName, n, t),
-       names(groups),
-       groups)
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
 ```
 
 ```{bash}
 attrName="body_site_details"
 robot extract --method subset \
     --input ontologies/uberon.owl \
-    --term-file dictionaries_terms/${attrName}_UBERON.txt \
+    --term-file dictionaries_terms/${attrName}.txt \
     --output dictionaries_owl/cmd_${attrName}.owl
 ```
 
