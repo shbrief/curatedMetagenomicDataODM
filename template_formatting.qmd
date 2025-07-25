@@ -1,0 +1,112 @@
+---
+title: "cMD metadata template formatting for Genestack ODM"
+author: "Sehyun Oh"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{cMD template for Genestack}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    number_sections: yes
+    toc: yes
+    toc_depth: 4
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(comment = "#>", 
+                      collapse = TRUE, 
+                      message = FALSE, 
+                      warning = FALSE, 
+                      eval=FALSE)
+```
+
+```{r}
+suppressPackageStartupMessages({
+    library(readr)
+})
+```
+
+
+# Genestack demo
+```{r}
+projDir <- "~/OmicsMLRepo/OmicsMLRepoData"
+```
+
+```{r echo=FALSE, eval=FALSE}
+gsDir <- file.path(projDir, "Genestack")
+df <- read_csv(file.path(gsDir, "demo/GSF017390_new_file__metadata.csv"))
+df2 <- read_csv(file.path(gsDir, "demo/GSF017389_Demo_Monday__metadata.csv"))
+```
+
+# Template
+```{r}
+cmd_dd <- read_csv(file.path(projDir, "inst/extdata/cMD_data_dictionary.csv"))
+```
+
+* Available values          
+
+| Column  | Values  |
+|--------|--------|
+| Required | Yes, No |
+| Metainfo type | Text, Integer, Decimal, Date, Yes / No, External link |
+| Read-only | Yes, No |
+
+: {tbl-colwidths="[25,50]"}
+
+```{r}
+## Required
+requiredness <- cmd_dd$requiredness
+required <- ifelse(requiredness == "optional", "No", "Yes")
+
+## Metainfo type
+col_class <- cmd_dd$col.class
+type_map <- data.frame(cmd_dd = c("character", "double", "integer", "numeric"),
+                       gs_dd = c("Text", "Decimal", "Integer", "Decimal"))
+metainfo_type <- plyr::mapvalues(
+    col_class,
+    from = type_map$cmd_dd,
+    to = type_map$gs_dd
+)
+
+## Metainfo type - Yes/No
+allowedvalues <- cmd_dd$allowedvalues
+yesno_ind <- grep("Yes", allowedvalues) 
+metainfo_type[yesno_ind] <- "Yes / No"
+```
+
+```{r}
+gs_dd <- as.data.frame(matrix(nrow = nrow(cmd_dd), ncol = 6))
+colnames(gs_dd) <- c("Name", "Required", "Metainfo type", "Read_only", 
+                     "Dictionary", "Description (max 500 symbols)")
+
+gs_dd$Name <- cmd_dd$col.name
+gs_dd$Required <- required
+gs_dd$`Metainfo type` <- metainfo_type
+gs_dd$Read_only <- "No"
+gs_dd$`Description (max 500 symbols)` <- cmd_dd$description
+```
+
+```{r}
+## Attributes Grouping
+name_groups <- gsub("disease_response_", "disease_response / ", gs_dd$Name) %>%
+    gsub("feces_phenotype_", "feces_phenotype / ", .) %>%
+    gsub("neonatal_", "neonatal / ", .) %>%
+    gsub("obgyn_", "obgyn / ", .) %>% 
+    gsub("tumor_staging_", "tumor_staging / ", .)
+
+sra_attr <- c("sequencing_platform", 
+              "median_read_length",
+              "minimum_read_length",
+              "number_bases",
+              "number_reads")
+sra_attr_ind <- which(name_groups %in% sra_attr)
+
+gs_dd$Name <- name_groups
+```
+
+```{r eval=FALSE}
+write_csv(gs_dd, file.path(gsDir, "genestack_cMD_template.csv"))
+```
+
+
