@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+ontologies/
+testing/
+dictionaries_owl/cmd_disease*
+dictionaries_owl/cmd_treatment*
