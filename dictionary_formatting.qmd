@@ -22,7 +22,7 @@ knitr::opts_chunk$set(comment = "#>",
 ```
 
 ```{r}
-dd <- readr::read_csv("~/OmicsMLRepo/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
+dd <- readr::read_csv("../OmicsMLRepoData/inst/extdata/cMD4_data_dictionary.csv")
 ```
 
 # NCIT
@@ -141,7 +141,66 @@ robot extract --method subset \
     --output dictionaries_owl/cmd_${attrName}.owl
 ```
 
+## neonatal_preterm_birth
+```{r}
+attrName <- "neonatal_preterm_birth"
+attrVals <- c("NCIT:C92861", "NCIT:C114093")
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
 
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="neonatal_preterm_birth"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+## obgyn_pregnancy
+```{r}
+attrName <- "obgyn_pregnancy"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="obgyn_pregnancy"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
+
+## sex
+```{r}
+attrName <- "sex"
+attrVals <- dd %>% filter(col.name == attrName) %>%
+    select(ontology) %>% unlist %>%
+    strsplit(., split = "\\|") %>% .[[1]]
+unique(OmicsMLRepoR::get_ontologies(attrVals)) # ontology used for this attribute
+
+## Save the list of static ontology terms
+fpath <- paste0("dictionaries_terms/", attrName,".txt")
+writeLines(attrVals, fpath)
+```
+
+```{bash}
+attrName="sex"
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term-file dictionaries_terms/${attrName}.txt \
+    --output dictionaries_owl/cmd_${attrName}.owl
+```
 
 
 ## treatment (dynamic enums)
@@ -195,9 +254,6 @@ robot merge \
     --input dictionaries_owl/cmd_disease_EFO_enums.owl \
     --output dictionaries_owl/cmd_${attrName}_enums.owl
 ```
-
-
-
 
 # MRO
 Download `mro.owl` from https://obofoundry.org/.
@@ -343,31 +399,6 @@ writeLines(attrVals, fpath)
 Contains values from different ontologies, including SNOMED.
 ```{r}
 attrName <- "feces_phenotype_metric"
-attrVals <- dd %>% filter(col.name == attrName) %>%
-    select(allowedvalues) %>% unlist %>%
-    strsplit(., split = ";") %>% .[[1]] %>% c("label", .)
-
-## Save the list of static ontology terms
-fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
-writeLines(attrVals, fpath)
-```
-
-## obgyn_pregnancy
-Straight-foward concepts
-```{r}
-attrName <- "obgyn_pregnancy"
-attrVals <- dd %>% filter(col.name == attrName) %>%
-    select(allowedvalues) %>% unlist %>%
-    strsplit(., split = ";") %>% .[[1]] %>% c("label", .)
-
-## Save the list of static ontology terms
-fpath <- paste0("dictionaries_owl/cmd_", attrName,".csv")
-writeLines(attrVals, fpath)
-```
-
-## sex
-```{r}
-attrName <- "sex"
 attrVals <- dd %>% filter(col.name == attrName) %>%
     select(allowedvalues) %>% unlist %>%
     strsplit(., split = ";") %>% .[[1]] %>% c("label", .)
