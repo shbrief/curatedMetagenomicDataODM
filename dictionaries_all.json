@@ -110,13 +110,18 @@
         "description": "Infant feeding methods. 'Breastfeeding' refers feeding milk from human (include non-mother's and through bottle), 'Mixed_feeding' refers both breastfeeding and formula feeding, 'Exclusively Breastfeeding;Mixed Feeding' referes the cases where any breastfeeding was done but formula feeding information is unavailable."
     },
     {
+        "name": "cMD neonatal_preterm_birth",
+        "url": "https://storage.googleapis.com/odm_template/cmd_neonatal_preterm_birth.owl",
+        "description": "Birth when a fetus is less than 37 weeks and 0 days gestational age (NCIT:C92861)."
+    },
+    {
         "name": "cMD obgyn_menopause_enums",
         "url": "https://storage.googleapis.com/odm_template/cmd_obgyn_menopause_enums.owl",
         "description": "An indicator as to whether the female subject is in menopause"
     },
     {
         "name": "cMD obgyn_pregnancy",
-        "url": "https://storage.googleapis.com/odm_template/cmd_obgyn_pregnancy.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_obgyn_pregnancy.owl",
         "description": "The pregnancy status of an individual."
     },
     {
@@ -126,7 +131,7 @@
     },
     {
         "name": "cMD sex",
-        "url": "https://storage.googleapis.com/odm_template/cmd_sex.csv",
+        "url": "https://storage.googleapis.com/odm_template/cmd_sex.owl",
         "description": "Biological sex of the subject"
     },
     {

@@ -1,12 +1,17 @@
 [
     {
-        "name": "cMD body_site",
-        "url": "https://storage.googleapis.com/odm_template/cmd_body_site.owl",
-        "description": "Subject's bodysite the given sample was collected from"
+        "name": "cMD sex",
+        "url": "https://storage.googleapis.com/odm_template/cmd_sex.owl",
+        "description": "Biological sex of the subject"
     },
     {
-        "name": "cMD body_site_details",
-        "url": "https://storage.googleapis.com/odm_template/cmd_body_site_details.owl",
-        "description": "Subject's body subsite the given sample was collected from. Should be more specific information than bodysite"
+        "name": "cMD obgyn_pregnancy",
+        "url": "https://storage.googleapis.com/odm_template/cmd_obgyn_pregnancy.owl",
+        "description": "The pregnancy status of an individual."
+    },
+    {
+        "name": "cMD neonatal_preterm_birth",
+        "url": "https://storage.googleapis.com/odm_template/cmd_neonatal_preterm_birth.owl",
+        "description": "Birth when a fetus is less than 37 weeks and 0 days gestational age (NCIT:C92861)."
     }
 ]

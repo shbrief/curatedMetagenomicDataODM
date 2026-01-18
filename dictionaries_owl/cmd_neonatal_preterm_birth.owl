@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P381 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P381"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P385 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P385"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P386 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P386"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C114093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C114093">
+        <obo:IAO_0000115>Birth at greater than or equal to 37 weeks using best estimated due date.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C114093</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Term Birth</obo:NCIT_P108>
+        <obo:NCIT_P207>C0233324</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>Birth at greater than or equal to 37 weeks and less than 42 weeks gestation using best estimated due date.</obo:NCIT_P325>
+        <obo:NCIT_P325>Gestation is greater than or equal to 37 wks. using best estimated due date.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Term Birth</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C114093</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C167409"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Term Birth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Birth at greater than or equal to 37 weeks using best estimated due date.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+        <obo:NCIT_P381>NICHD</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Birth at greater than or equal to 37 weeks and less than 42 weeks gestation using best estimated due date.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Gestation is greater than or equal to 37 wks. using best estimated due date.</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Term</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P386>PCC</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Term</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Term</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Term Birth</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114093"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Term Birth</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92861">
+        <obo:IAO_0000115>Birth when a fetus is less than 37 weeks and 0 days gestational age.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C92861</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Finding</obo:NCIT_P106>
+        <obo:NCIT_P108>Preterm Birth</obo:NCIT_P108>
+        <obo:NCIT_P207>C4011994</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
+        <obo:NCIT_P322>CTCAE</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A disorder characterized by delivery of a viable infant before the normal end of gestation. Typically, viability is achievable between the twentieth and thirty-seventh week of gestation.</obo:NCIT_P325>
+        <obo:NCIT_P325>Birth at less than 37 weeks and 0 days gestation.</obo:NCIT_P325>
+        <obo:NCIT_P325>Gestation that is less than 37 wks. and 0 days&apos; gestational age.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Pre-Term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Premature delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preterm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preterm Birth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preterm Delivery</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C92861</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118466"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C167409"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Preterm Birth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A disorder characterized by delivery of a viable infant before the normal end of gestation. Typically, viability is achievable between the twentieth and thirty-seventh week of gestation.</owl:annotatedTarget>
+        <obo:NCIT_P378>CTCAE</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Birth at less than 37 weeks and 0 days gestation.</owl:annotatedTarget>
+        <obo:NCIT_P378>NICHD</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Gestation that is less than 37 wks. and 0 days&apos; gestational age.</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Pre-Term</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Premature delivery</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CTCAE</obo:NCIT_P384>
+        <obo:NCIT_P385>E12867</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Preterm</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P386>PCC</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Preterm Birth</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Preterm Birth</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Preterm Delivery</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Birth when a fetus is less than 37 weeks and 0 days gestational age.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
