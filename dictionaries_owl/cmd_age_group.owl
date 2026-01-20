@@ -6,7 +6,6 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -68,6 +67,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P386 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P386"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
@@ -78,7 +101,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -87,30 +112,6 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378 -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P378"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383 -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P383"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384 -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P384"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P386 -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/NCIT_P386"/>
     
 
 
@@ -147,50 +148,251 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16268"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An age group comprised of individuals 65 years of age and older.</owl:annotatedTarget>
-        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16268"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Aged 65 and Over</owl:annotatedTarget>
-        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16268"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ELDERLY</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>FDA</obo1:NCIT_P384>
-        <obo1:NCIT_P386>ICSR-CVM</obo1:NCIT_P386>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16268"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Elderly</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16268"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Elderly</owl:annotatedTarget>
-        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
-        <obo1:NCIT_P384>caDSR</obo1:NCIT_P384>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16268"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Elderly (Over 65)</owl:annotatedTarget>
-        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16268"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Senior Citizen</owl:annotatedTarget>
-        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16423">
+        <obo:IAO_0000115>An age group comprised of individuals who are not yet an adult. The specific cut-off age will vary by purpose.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16423</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Age Group</obo:NCIT_P106>
+        <obo:NCIT_P108>Child</obo:NCIT_P108>
+        <obo:NCIT_P207>C0008059</obo:NCIT_P207>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P366>Children</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>CHILD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Child</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Children</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Children (0-21)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C16423</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19752"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Child</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16423"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Child</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16423"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Child</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16423"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Child</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16423"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Children</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16423"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Children (0-21)</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16423"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An age group comprised of individuals who are not yet an adult. The specific cut-off age will vary by purpose.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16423"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CHILD</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16731">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27956"/>
+        <obo:IAO_0000115>An age group comprised of infants during the first month after birth.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16731</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Age Group</obo:NCIT_P106>
+        <obo:NCIT_P108>Newborn</obo:NCIT_P108>
+        <obo:NCIT_P207>C0021289</obo:NCIT_P207>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P366>Newborn</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>NEONATE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Neonatal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Neonate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Newborn</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C16731</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89506"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Newborn</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16731"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An age group comprised of infants during the first month after birth.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16731"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NEONATE</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16731"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Neonatal</owl:annotatedTarget>
+        <obo:NCIT_P383>AD</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16731"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Neonate</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16731"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Newborn</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16731"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Newborn</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17600">
+        <obo:IAO_0000115>An age group comprised of humans who have reached reproductive age.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C17600</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Age Group</obo:NCIT_P106>
+        <obo:NCIT_P108>Adult</obo:NCIT_P108>
+        <obo:NCIT_P207>C0001675</obo:NCIT_P207>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P366>Adult</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>ADULT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adult</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adult Human (21+)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human, Adult</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>NCIT:C17600</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19752"/>
+        <rdfs:label>Adult</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17600"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An age group comprised of humans who have reached reproductive age.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17600"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ADULT</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17600"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adult</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17600"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adult</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>caDSR</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17600"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adult Human (21+)</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17600"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Human, Adult</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     
 
@@ -213,31 +415,31 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27954"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Adolescent</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27954"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Adolescents</owl:annotatedTarget>
-        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27954"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An age group comprised of juveniles between the onset of puberty and maturity; in the state of development between puberty and maturity.</owl:annotatedTarget>
-        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27954"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ADOLESCENT</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>FDA</obo1:NCIT_P384>
-        <obo1:NCIT_P386>ICSR-CVM</obo1:NCIT_P386>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27954"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adolescent</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27954"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Adolescents</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     
 
@@ -263,107 +465,33 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27956"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An age group comprised of individuals between one month and two years of age.</owl:annotatedTarget>
-        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27956"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>INFANT</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>FDA</obo1:NCIT_P384>
-        <obo1:NCIT_P386>ICSR-CVM</obo1:NCIT_P386>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27956"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Infant</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27956"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Infant</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NICHD</obo1:NCIT_P384>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C49683 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49683">
-        <obo:IAO_0000115>An age group comprised of individuals between 2 to 11 years of age.</obo:IAO_0000115>
-        <obo:NCIT_NHC0>C49683</obo:NCIT_NHC0>
-        <obo:NCIT_P106>Age Group</obo:NCIT_P106>
-        <obo:NCIT_P108>Children 2-11 Years Old</obo:NCIT_P108>
-        <obo:NCIT_P207>C1707381</obo:NCIT_P207>
-        <obo:NCIT_P366>Children_Two_Through_Eleven_Years_Old</obo:NCIT_P366>
-        <oboInOwl:hasExactSynonym>Children (2-11)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Children 2-11 Years Old</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>NCIT:C49683</oboInOwl:id>
-        <rdfs:label>Children 2-11 Years Old</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49683"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An age group comprised of individuals between 2 to 11 years of age.</owl:annotatedTarget>
-        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49683"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Children (2-11)</owl:annotatedTarget>
-        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49683"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Children 2-11 Years Old</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C49685 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49685">
-        <obo:IAO_0000115>An age group comprised of individuals from 18 years to 65 years of age.</obo:IAO_0000115>
-        <obo:NCIT_NHC0>C49685</obo:NCIT_NHC0>
-        <obo:NCIT_P106>Age Group</obo:NCIT_P106>
-        <obo:NCIT_P108>Adult 18-65 Years Old</obo:NCIT_P108>
-        <obo:NCIT_P207>C1706730</obo:NCIT_P207>
-        <obo:NCIT_P366>Adult_Eighteen_Through_Sixty-five_Years_Old</obo:NCIT_P366>
-        <oboInOwl:hasExactSynonym>Adult (18-65)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Adult 18-65 Years Old</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>NCIT:C49685</oboInOwl:id>
-        <rdfs:label>Adult 18-65 Years Old</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49685"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An age group comprised of individuals from 18 years to 65 years of age.</owl:annotatedTarget>
-        <obo1:NCIT_P378>NCI</obo1:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49685"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Adult (18-65)</owl:annotatedTarget>
-        <obo1:NCIT_P383>SY</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49685"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Adult 18-65 Years Old</owl:annotatedTarget>
-        <obo1:NCIT_P383>PT</obo1:NCIT_P383>
-        <obo1:NCIT_P384>NCI</obo1:NCIT_P384>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
     </owl:Axiom>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

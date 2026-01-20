@@ -22,7 +22,7 @@ knitr::opts_chunk$set(comment = "#>",
 ```
 
 ```{r}
-dd <- readr::read_csv("../OmicsMLRepoData/inst/extdata/cMD4_data_dictionary.csv")
+dd <- readr::read_csv("/home/kaelyn/Desktop/Work/OmicsMLRepoData/inst/extdata/cMD_data_dictionary.csv")
 ```
 
 # NCIT
@@ -209,6 +209,17 @@ robot extract --method subset \
 robot extract --method MIREOT \
     --input ontologies/ncit.obo \
     --branch-from-term "NCIT:C1908" \
+    --output dictionaries_owl/cmd_treatment_base.owl
+    
+## Add None (NCIT:C41132)
+robot extract --method subset \
+    --input ontologies/ncit.obo \
+    --term "NCIT:C41132" \
+    --output dictionaries_owl/cmd_treatment_none.owl
+    
+robot merge \
+    --input dictionaries_owl/cmd_treatment_base.owl \
+    --input dictionaries_owl/cmd_treatment_none.owl \
     --output dictionaries_owl/cmd_treatment_enums.owl
 ```
 
