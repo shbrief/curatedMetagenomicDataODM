@@ -20,6 +20,11 @@
         "description": "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data (descendants of `ancestry`)"
     },
     {
+        "name": "cMD antibiotics_exclusion_period_unit",
+        "url": "https://storage.googleapis.com/odm_template/cmd_antibiotics_exclusion_period_unit.owl",
+        "description": "Unit for antibiotics exclusion period"
+    },
+    {
         "name": "cMD biomarker",
         "url": "https://storage.googleapis.com/odm_template/cmd_biomarker_enums.owl",
         "description": "A measurable and quantifiable characteristic or substance that serves as an indicator of a biological state, condition, or process within an organism."
